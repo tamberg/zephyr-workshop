@@ -3,10 +3,10 @@ Das Internet of Things (IoT) ist die Verschmelzung von Internet und physischer W
 
 - [Einführung](#einführung)
 - [Toolchain Setup](#toolchain-setup)
-- [GPIO & Sensoren]()
-- [Threads & Mutex]()
-- [Message Queues](message-queues)
-- [Sockets & HTTP]()
+- [GPIO & Sensoren](#gpio--sensoren)
+- [Threads & Mutex](#threads--mutex)
+- [Message Queues](#message-queues)
+- [Sockets & HTTP](#sockets--http)
 - [Debugging](#debugging)
 
 Der Workshop vermittelt die Grundlagen der embedded Programmierung auf neuster IoT Hardware, mit Zephyr OS, in der Sprache C.
