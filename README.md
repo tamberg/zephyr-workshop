@@ -21,7 +21,7 @@ Der Workshop setzt ein Wi-Fi Netzwerk voraus, das ohne Portal zugänglich ist. F
 TODO
 
 ## Toolchain Setup
-TODO
+https://docs.zephyrproject.org/latest/develop/getting_started/index.html
 
 ## GPIO & Sensoren
 TODO
