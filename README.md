@@ -29,7 +29,7 @@ Der Workshop setzt ein Wi-Fi Netzwerk voraus, das ohne Portal zugänglich ist. F
 https://docs.zephyrproject.org/latest/develop/getting_started/index.html
 
 ### Zephyr (MacOS)
-    $ brew install cmake ninja gperf python3 ccache qemu dtc wget dfu-util
+    $ brew install cmake ninja gperf python3 ccache qemu dtc wget
     $ pip3 install -U west
 
     $ mkdir Zephyr
@@ -69,6 +69,7 @@ https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html
     $ west flash
 
 ### STM32F405 (MacOS)
+    $ brew install dfu-util
     $ brew install gcc-arm-embedded --cask
     $ which arm-none-eabi-gdb
     $ nano ~/.zshenv
