@@ -57,6 +57,7 @@ TODO
 
 ## Hardware Setup
 https://docs.zephyrproject.org/latest/boards/index.html
+
 https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html
 
 ### ESP32-S2 (MacOS)
@@ -70,6 +71,7 @@ https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html
 
 ### ESP32-C3 (MacOS)
 https://docs.zephyrproject.org/latest/boards/riscv/esp32c3_devkitm/doc/index.html
+
 https://www.adafruit.com/product/5405
 
     $ west espressif update
