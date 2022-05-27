@@ -75,7 +75,7 @@ https://www.adafruit.com/product/5405
     $ west espressif update
     $ cat samples/hello_world/src/main.c
     $ west build -p auto -b esp32c3_devkitm samples/hello_world
-    <press &hold reset, press user button, release user button, release reset>
+    <press & hold reset, press user button, release user button, release reset>
     $ west flash
     $ west espressif monitor
 
