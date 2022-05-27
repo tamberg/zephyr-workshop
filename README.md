@@ -1,5 +1,5 @@
 # IoT Embedded Programmierung mit Zephyr OS
-> Achtung Beta! Das Workshop Material ist neu, Typos und Fehler gerne als [Issue](/issues) erfassen.
+> _Hinweis: Das Workshop Material ist neu, Typos und Fehler gerne als [Issue](/issues) erfassen._
 
 Das Internet of Things (IoT) ist die Verschmelzung von Internet und physischer Welt. IoT embedded Devices haben typischerweise beschränkte Ressourcen, sie werden aber auch mit jeder Generation performanter. Dies ermöglicht komplexere Software vor Ort, stellt aber auch höhere Anforderungen an die Plattform. Zephyr OS, ein open source Betriebssystem für eingebettete Geräte, bietet die notwendigen Abstraktionen, insbesondere POSIX Threads, BSD Sockets und Debugging Mechanismen. Diese erlauben professionelles Software Engineering für robuste, zuverlässige IoT Anwendungen.
 
