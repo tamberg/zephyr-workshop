@@ -64,8 +64,8 @@ https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html
     $ cd ~/Documents/Zephyr/zephyrproject
     $ west espressif update
     $ cd ~/Documents/Zephyr/zephyrproject/zephyr
-    $ cat samples/hello_world/src/main.c
-    $ west build -b esp32s2_saola samples/hello_world
+    $ cat samples/basic/blinky/src/main.c
+    $ west build -b esp32s2_saola samples/basic/blinky
     $ west flash
 
 ### STM32F405 (MacOS)
@@ -77,6 +77,7 @@ https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html
     $ source ~/.zshenv
     $ echo $ZEPHYR_TOOLCHAIN_VARIANT
     $ echo $GNUARMEMB_TOOLCHAIN_PATH
+    $ cat samples/basic/blinky/src/main.c
     $ west build -p auto -b adafruit_feather_stm32f405 samples/basic/blinky
     $ west flash
 
