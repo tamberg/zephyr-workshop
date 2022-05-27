@@ -82,7 +82,8 @@ https://learn.adafruit.com/assets/109663 (Pinout)
     <press & hold reset, press user button, release user button, release reset>
     $ west flash
     $ west espressif monitor
-    <TODO: https://forums.adafruit.com/viewtopic.php?f=8&t=191501&p=926488#p926488>
+
+TODO: https://forums.adafruit.com/viewtopic.php?f=8&t=191501&p=926488#p926488
 
 ### STM32F405 (MacOS)
     $ brew install dfu-util
