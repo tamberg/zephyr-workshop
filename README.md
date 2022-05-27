@@ -48,14 +48,12 @@ https://docs.zephyrproject.org/latest/boards/index.html
 https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html
 
 ### ESP32-S2 (MacOS)
+    $ pip3 install --upgrade esptool
     $ cd ~/Documents/Zephyr/zephyrproject
     $ west espressif update
     $ cd ~/Documents/Zephyr/zephyrproject/zephyr
     $ cat samples/hello_world/src/main.c
     $ west build -b esp32s2_saola samples/hello_world
-
-    $ pip3 install --upgrade esptool
-
     $ west flash
 
 ## GPIO & Sensoren
