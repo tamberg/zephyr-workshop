@@ -36,7 +36,7 @@ TODO
 TODO
 
 ## Debugging
-https://www.zephyrproject.org/zephyr-rtos-boards-configurations-hardware-interaction/ (Debugging)
-https://blog.golioth.io/debugging-zephyr-for-beginners-printk-and-the-logging-subsystem/
-https://docs.zephyrproject.org/latest/kernel/services/other/fatal.html (Runtime Assertions)
-https://www.irnas.eu/remote-zephyr-development-with-segger-tunnel-and-a-raspberry-pi/
+* https://www.zephyrproject.org/zephyr-rtos-boards-configurations-hardware-interaction/ (Debugging)
+* https://blog.golioth.io/debugging-zephyr-for-beginners-printk-and-the-logging-subsystem/
+* https://docs.zephyrproject.org/latest/kernel/services/other/fatal.html (Runtime Assertions)
+* https://www.irnas.eu/remote-zephyr-development-with-segger-tunnel-and-a-raspberry-pi/
