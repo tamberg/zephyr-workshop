@@ -63,6 +63,8 @@ https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html
 
 https://www.adafruit.com/product/5325 (Adafruit QT Py ESP32-S2 WiFi Dev Board)
 
+https://learn.adafruit.com/assets/107493 (Pinout)
+
     $ pip3 install --upgrade esptool
     $ cd ~/Documents/Zephyr/zephyrproject
     $ west espressif update
