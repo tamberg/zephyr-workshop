@@ -3,6 +3,7 @@ Das Internet of Things (IoT) ist die Verschmelzung von Internet und physischer W
 
 - [Einführung](#einführung)
 - [Toolchain Setup](#toolchain-setup)
+- [Hardware Setup](#hardware-setup)
 - [GPIO & Sensoren](#gpio--sensoren)
 - [Threads & Mutex](#threads--mutex)
 - [Message Queues](#message-queues)
@@ -42,10 +43,11 @@ https://docs.zephyrproject.org/latest/develop/getting_started/index.html
     $ cd zephyr-sdk-0.14.1
     $ ./setup.sh
 
-### ESP32-S2 (MacOS)
+## Hardware Setup
 https://docs.zephyrproject.org/latest/boards/index.html
 https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html
 
+### ESP32-S2 (MacOS)
     $ cd ~/Documents/Zephyr/zephyrproject
     $ west espressif update
     $ cd ~/Documents/Zephyr/zephyrproject/zephyr
