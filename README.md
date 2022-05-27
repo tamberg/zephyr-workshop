@@ -10,7 +10,7 @@ Das Internet of Things (IoT) ist die Verschmelzung von Internet und physischer W
 - [Sockets & HTTP](#sockets--http)
 - [Debugging](#debugging)
 
-> :alert: Achtung Beta! Das Workshop Material ist neu, Typos und Fehler gerne als [Issue](/issues) erfassen.
+> ::alert:: Achtung Beta! Das Workshop Material ist neu, Typos und Fehler gerne als [Issue](/issues) erfassen.
 
 Der Workshop vermittelt die Grundlagen der embedded Programmierung auf neuster IoT Hardware, mit Zephyr OS, in der Sprache C.
 
