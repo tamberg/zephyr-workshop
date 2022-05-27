@@ -1,4 +1,6 @@
 # IoT Embedded Programmierung mit Zephyr OS
+> Achtung Beta! Das Workshop Material ist neu, Typos und Fehler gerne als [Issue](/issues) erfassen.
+
 Das Internet of Things (IoT) ist die Verschmelzung von Internet und physischer Welt. IoT embedded Devices haben typischerweise beschränkte Ressourcen, sie werden aber auch mit jeder Generation performanter. Dies ermöglicht komplexere Software vor Ort, stellt aber auch höhere Anforderungen an die Plattform. Zephyr OS, ein open source Betriebssystem für eingebettete Geräte, bietet die notwendigen Abstraktionen, insbesondere POSIX Threads, BSD Sockets und Debugging Mechanismen. Diese erlauben professionelles Software Engineering für robuste, zuverlässige IoT Anwendungen.
 
 - [Einführung](#einführung)
@@ -9,8 +11,6 @@ Das Internet of Things (IoT) ist die Verschmelzung von Internet und physischer W
 - [Message Queues](#message-queues)
 - [Sockets & HTTP](#sockets--http)
 - [Debugging](#debugging)
-
-> Achtung Beta! Das Workshop Material ist neu, Typos und Fehler gerne als [Issue](/issues) erfassen.
 
 Der Workshop vermittelt die Grundlagen der embedded Programmierung auf neuster IoT Hardware, mit Zephyr OS, in der Sprache C.
 
