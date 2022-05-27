@@ -29,6 +29,7 @@ Der Workshop setzt ein Wi-Fi Netzwerk voraus, das ohne Portal zugänglich ist. F
 ## Einführung
 ### Zephyr RTOS
 https://zephyrproject.org/
+https://docs.zephyrproject.org/latest/introduction/index.html
 
 ### Device Tree
 https://docs.zephyrproject.org/latest/build/dts/intro.html
