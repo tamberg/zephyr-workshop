@@ -47,6 +47,8 @@ https://docs.zephyrproject.org/latest/develop/getting_started/index.html
     $ cd zephyr-sdk-0.14.1
     $ ./setup.sh
 
+(Tipps zu Brew, XCode, etc. siehe https://learn.adafruit.com/blinking-led-with-zephyr-rtos/installing-zephyr-osx)
+
 ### Zephyr (Linux)
 TODO
 
