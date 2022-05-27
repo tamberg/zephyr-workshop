@@ -68,6 +68,9 @@ https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html
     $ west build -b esp32s2_saola samples/hello_world
     $ west flash
 
+### STM32F405 (MacOS)
+    $ brew cask install gcc-arm-embedded
+
 ## GPIO & Sensoren
 TODO
 
