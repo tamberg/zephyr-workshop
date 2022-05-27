@@ -69,7 +69,7 @@ TODO
 ### Zephyr (Windows)
 TODO
 
-### Hello World
+### Hello World (any OS)
     $ west build -p auto -b qemu_x86 samples/hello_world
     $ west build -t run
 
