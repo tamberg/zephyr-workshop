@@ -42,7 +42,7 @@ https://docs.zephyrproject.org/latest/develop/getting_started/index.html
     $ cd zephyr-sdk-0.14.1
     $ ./setup.sh
 
-### ESP32 S2 (MacOS)
+### ESP32-S2 (MacOS)
 https://docs.zephyrproject.org/latest/boards/index.html
 https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html
 
