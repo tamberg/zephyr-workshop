@@ -70,7 +70,6 @@ https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html
 
 ### STM32F405 (MacOS)
     $ brew install gcc-arm-embedded --cask
-    $ west build -p auto -b adafruit_feather_stm32f405 samples/basic/blinky
     $ which arm-none-eabi-gdb
     $ nano ~/.zshenv
     export ZEPHYR_TOOLCHAIN_VARIANT=gnuarmemb
@@ -78,6 +77,8 @@ https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html
     $ source ~/.zshenv
     $ echo $ZEPHYR_TOOLCHAIN_VARIANT
     $ echo $GNUARMEMB_TOOLCHAIN_PATH
+    $ west build -p auto -b adafruit_feather_stm32f405 samples/basic/blinky
+    $ west flash
 
 ## GPIO & Sensoren
 TODO
