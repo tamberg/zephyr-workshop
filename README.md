@@ -23,7 +23,7 @@ TODO
 ## Toolchain Setup
 https://docs.zephyrproject.org/latest/develop/getting_started/index.html
 
-### MacOS
+### Zephyr (MacOS)
     $ brew install cmake ninja gperf python3 ccache qemu dtc wget
     $ pip3 install -U west
 
@@ -42,7 +42,19 @@ https://docs.zephyrproject.org/latest/develop/getting_started/index.html
     $ cd zephyr-sdk-0.14.1
     $ ./setup.sh
 
+### ESP32 S2 (MacOS)
 https://docs.zephyrproject.org/latest/boards/index.html
+https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html
+
+    $ cd ~/Documents/Zephyr/zephyrproject
+    $ west espressif update
+    $ cd ~/Documents/Zephyr/zephyrproject/zephyr
+    $ cat samples/hello_world/src/main.c
+    $ west build -b esp32s2_saola samples/hello_world
+
+    $ pip3 install --upgrade esptool
+
+    $ west flash
 
 ## GPIO & Sensoren
 TODO
