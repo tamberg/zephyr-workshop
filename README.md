@@ -29,7 +29,7 @@ Der Workshop setzt ein Wi-Fi Netzwerk voraus, das ohne Portal zugänglich ist. F
 https://docs.zephyrproject.org/latest/develop/getting_started/index.html
 
 ### Zephyr (MacOS)
-    $ brew install cmake ninja gperf python3 ccache qemu dtc wget
+    $ brew install cmake ninja gperf python3 ccache qemu dtc wget dfu-util
     $ pip3 install -U west
 
     $ mkdir Zephyr
