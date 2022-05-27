@@ -1,4 +1,4 @@
-# IoT Embedded Programmierung mit Zephyr OS
+# IoT Embedded Programmierung mit Zephyr RTOS
 
 ## Meta
 > Hinweis: Das Workshop Material ist neu, Typos und Fehler gerne als [Issue](../../issues) erfassen.
@@ -27,7 +27,12 @@ Teilnehmende brauchen einen Laptop mit MacOS, Windows oder Linux, und falls verf
 Der Workshop setzt ein Wi-Fi Netzwerk voraus, das ohne Portal zugänglich ist. Falls im Gebäude kein solches Netz vorhanden ist, können persönliche Smartphones als Hotspot verwendet werden.
 
 ## Einführung
+### Was ist Zephyr?
+
+### Device Tree
 https://docs.zephyrproject.org/latest/build/dts/intro.html
+
+### ...
 
 ## Toolchain Setup
 https://docs.zephyrproject.org/latest/develop/getting_started/index.html
