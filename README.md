@@ -19,7 +19,7 @@ Teilnehmende brauchen einen Laptop mit MacOS, Windows oder Linux, und falls verf
 Der Workshop setzt ein Wi-Fi Netzwerk voraus, das ohne Portal zugänglich ist. Falls im Gebäude kein solches Netz vorhanden ist, können persönliche Smartphones als Hotspot verwendet werden.
 
 ## Einführung
-TODO
+http://www.tamberg.org/fhnw/2021/hs/IoT01Introduction.pdf
 
 ## Toolchain Setup
 https://docs.zephyrproject.org/latest/develop/getting_started/index.html
