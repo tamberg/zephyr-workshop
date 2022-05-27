@@ -70,6 +70,7 @@ https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html
 
 ### STM32F405 (MacOS)
     $ brew install gcc-arm-embedded --cask
+    $ west build -p auto -b adafruit_feather_stm32f405 samples/basic/blinky
 
 ## GPIO & Sensoren
 TODO
