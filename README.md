@@ -23,6 +23,27 @@ TODO
 ## Toolchain Setup
 https://docs.zephyrproject.org/latest/develop/getting_started/index.html
 
+### MacOS
+    $ brew install cmake ninja gperf python3 ccache qemu dtc wget
+    $ pip3 install -U west
+
+    $ mkdir Zephyr
+    $ cd Zephyr
+
+    $ west init zephyrproject
+    $ cd zephyrproject
+    $ west update
+    $ west zephyr-export
+    $ pip3 install -r zephyr/scripts/requirements.txt 
+
+    $ wget https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.1/zephyr-sdk-0.14.1_macos-x86_64.tar.gz
+    $ wget -O - https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.1/sha256.sum | shasum --check --ignore-missing
+    $ tar xvf zephyr-sdk-0.14.1_macos-x86_64.tar.gz
+    $ cd zephyr-sdk-0.14.1
+    $ ./setup.sh
+
+https://docs.zephyrproject.org/latest/boards/index.html
+
 ## GPIO & Sensoren
 TODO
 
