@@ -31,6 +31,9 @@ Der Workshop setzt ein Wi-Fi Netzwerk voraus, das ohne Portal zugänglich ist. F
 https://zephyrproject.org/
 https://docs.zephyrproject.org/latest/introduction/index.html
 
+### Build System
+https://docs.zephyrproject.org/latest/build/cmake/index.html
+
 ### Device Tree
 https://docs.zephyrproject.org/latest/build/dts/intro.html
 
