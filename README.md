@@ -72,6 +72,10 @@ TODO
 ## Hardware Setup
 https://docs.zephyrproject.org/latest/boards/index.html
 
+### Qemu (MacOS)
+    $ west build -p auto -b qemu_x86 samples/hello_world
+    $ west build -t run
+
 ### ESP32-S2 (MacOS)
 https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html
 
