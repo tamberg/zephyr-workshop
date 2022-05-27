@@ -58,9 +58,9 @@ TODO
 ## Hardware Setup
 https://docs.zephyrproject.org/latest/boards/index.html
 
+### ESP32-S2 (MacOS)
 https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html
 
-### ESP32-S2 (MacOS)
     $ pip3 install --upgrade esptool
     $ cd ~/Documents/Zephyr/zephyrproject
     $ west espressif update
