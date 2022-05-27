@@ -68,6 +68,17 @@ https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html
     $ west build -p auto -b esp32s2_saola samples/basic/blinky
     $ west flash
 
+### ESP32-C3 (MacOS)
+https://docs.zephyrproject.org/latest/boards/riscv/esp32c3_devkitm/doc/index.html
+https://www.adafruit.com/product/5405
+
+    $ west espressif update
+    $ cat samples/hello_world/src/main.c
+    $ west build -p auto -b esp32c3_devkitm samples/hello_world
+    <press &hold reset, press user button, release user button, release reset>
+    $ west flash
+    $ west espressif monitor
+
 ### STM32F405 (MacOS)
     $ brew install dfu-util
     $ brew install gcc-arm-embedded --cask
