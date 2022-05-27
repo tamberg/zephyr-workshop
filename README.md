@@ -65,7 +65,7 @@ https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html
     $ west espressif update
     $ cd ~/Documents/Zephyr/zephyrproject/zephyr
     $ cat samples/basic/blinky/src/main.c
-    $ west build -b esp32s2_saola samples/basic/blinky
+    $ west build -p auto -b esp32s2_saola samples/basic/blinky
     $ west flash
 
 ### STM32F405 (MacOS)
