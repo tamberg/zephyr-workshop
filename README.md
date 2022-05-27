@@ -72,7 +72,9 @@ https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html
 ### ESP32-C3 (MacOS)
 https://docs.zephyrproject.org/latest/boards/riscv/esp32c3_devkitm/doc/index.html
 
-https://www.adafruit.com/product/5405
+https://www.adafruit.com/product/5405 (Adafruit QT Py ESP32-C3 WiFi Dev Board)
+
+https://learn.adafruit.com/assets/109663 (Pinout)
 
     $ west espressif update
     $ cat samples/hello_world/src/main.c
