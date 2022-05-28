@@ -36,7 +36,7 @@ https://docs.zephyrproject.org/latest/introduction/index.html
 
 https://docs.zephyrproject.org/latest/build/cmake/index.html
 
-![https://docs.zephyrproject.org/latest/_images/build-config-phase.svg]
+![Build Config Phase, (c) Zephyr Project](https://docs.zephyrproject.org/latest/_images/build-config-phase.svg)
 https://docs.zephyrproject.org/latest/build/cmake/index.html#configuration-phase
 
 ### Device Tree
