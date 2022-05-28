@@ -32,7 +32,10 @@ Der Workshop setzt ein Wi-Fi Netzwerk voraus, das ohne Portal zugänglich ist. F
 > * Open Source - Available through the Apache 2.0 open source license. Free to use in commercial and non-commercial solutions.
 > * Product Ready - Long term support (LTS) with security updates. Auditable code base developed with a goal of safety certifications.
 > * Connected - Supports Bluetooth® Low Energy, Wi-Fi*, 802.15.4. Supports standards like 6LoWPAN, CoAP, IPv4, IPv6, Ethernet, USB, CAN and Thread.
+
 https://zephyrproject.org/
+
+> The Zephyr OS is based on a small-footprint kernel designed for use on resource-constrained and embedded systems: from simple embedded environmental sensors and LED wearables to sophisticated embedded controllers, smart watches, and IoT wireless applications.
 
 https://docs.zephyrproject.org/latest/introduction/index.html
 
