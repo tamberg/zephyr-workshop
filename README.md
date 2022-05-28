@@ -134,6 +134,8 @@ TODO
 TODO
 
 ## Debugging
+    $ west debug
+
 * https://www.zephyrproject.org/zephyr-rtos-boards-configurations-hardware-interaction/ (Debugging)
 * https://blog.golioth.io/debugging-zephyr-for-beginners-printk-and-the-logging-subsystem/
 * https://docs.zephyrproject.org/latest/kernel/services/other/fatal.html (Runtime Assertions)
