@@ -177,6 +177,8 @@ TODO
 TODO
 
 ## Sockets & HTTP
+https://docs.zephyrproject.org/latest/connectivity/networking/net-stack-architecture.html
+
 TODO
 
 ## Debugging
