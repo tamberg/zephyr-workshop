@@ -85,7 +85,7 @@ https://docs.zephyrproject.org/latest/build/dts/intro.html
 https://docs.zephyrproject.org/latest/develop/getting_started/index.html
 
 ### Zephyr
-#### MacOS
+#### Zephyr on MacOS
     $ brew install cmake ninja gperf python3 ccache qemu dtc wget
     $ pip3 install -U west
 
@@ -106,13 +106,13 @@ https://docs.zephyrproject.org/latest/develop/getting_started/index.html
 
 (Tipps zu Brew, XCode, etc. siehe https://learn.adafruit.com/blinking-led-with-zephyr-rtos/installing-zephyr-osx)
 
-#### Linux
+#### Zephyr on Linux
 TODO
 
-#### Windows
+#### Zephyr on Windows
 TODO
 
-### Hello World (any OS)
+### Hello World
     $ west build -p auto -b qemu_x86 samples/hello_world
     $ west build -t run
 
@@ -120,10 +120,14 @@ TODO
 https://docs.zephyrproject.org/latest/boards/index.html
 
 ### ESP32-S2
-https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html
-
+#### Buy
 https://www.adafruit.com/product/5325 (Adafruit QT Py ESP32-S2 WiFi Dev Board)
 
+#### Board
+https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html
+
+#### Pinout
+![ESP32-S2, (c) Adafruit](https://cdn-learn.adafruit.com/assets/assets/000/107/493/original/adafruit_products_Adafruit_QT_Py_ESP32-S2_Pinout.png?1640130293)
 https://learn.adafruit.com/assets/107493 (Pinout)
 
 #### MacOS
