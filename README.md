@@ -32,6 +32,8 @@ https://zephyrproject.org/
 https://docs.zephyrproject.org/latest/introduction/index.html
 
 ### Build System
+> CMake is used to build your application together with the Zephyr kernel. A CMake build is done in two stages. The first stage is called configuration. During configuration, the CMakeLists.txt build scripts are executed. After configuration is finished, CMake has an internal model of the Zephyr build, and can generate build scripts that are native to the host platform.
+
 https://docs.zephyrproject.org/latest/build/cmake/index.html
 
 ### Device Tree
