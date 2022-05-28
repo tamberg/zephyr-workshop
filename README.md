@@ -144,15 +144,11 @@ TODO: https://forums.adafruit.com/viewtopic.php?f=8&t=191501&p=926488#p926488
     $ west flash
 
 ## GPIO & Sensoren
-https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/basic/blinky
-
-https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/basic/button
-
-https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/sensor/dht
-
-  https://github.com/zephyrproject-rtos/zephyr/blob/main/samples/sensor/dht/boards/nrf52dk_nrf52832.overlay
-
-https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/sensor
+* https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/basic/blinky
+* https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/basic/button
+* https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/sensor/dht
+    * https://github.com/zephyrproject-rtos/zephyr/blob/main/samples/sensor/dht/boards/nrf52dk_nrf52832.overlay
+* https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/sensor
 
 ## Threads & Mutex
 TODO
