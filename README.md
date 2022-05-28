@@ -130,7 +130,7 @@ https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html
 ![ESP32-S2, (c) Adafruit](https://cdn-learn.adafruit.com/assets/assets/000/107/493/original/adafruit_products_Adafruit_QT_Py_ESP32-S2_Pinout.png?1640130293)
 https://learn.adafruit.com/assets/107493 (Pinout)
 
-#### MacOS
+#### ESP32-S2 on MacOS
     $ pip3 install --upgrade esptool
     $ cd ~/Documents/Zephyr/zephyrproject
     $ west espressif update
@@ -139,10 +139,10 @@ https://learn.adafruit.com/assets/107493 (Pinout)
     $ west build -p auto -b esp32s2_saola samples/basic/blinky
     $ west flash
 
-#### Linux
+#### ESP32-S2 on Linux
 TODO
 
-#### Windows
+#### ESP32-S2 on Windows
 TODO
 
 ### ESP32-C3
@@ -152,7 +152,7 @@ https://www.adafruit.com/product/5405 (Adafruit QT Py ESP32-C3 WiFi Dev Board)
 
 https://learn.adafruit.com/assets/109663 (Pinout)
 
-#### MacOS
+#### ESP32-C3 on MacOS
     $ west espressif update
     $ cat samples/hello_world/src/main.c
     $ west build -p auto -b esp32c3_devkitm samples/hello_world
@@ -162,14 +162,14 @@ https://learn.adafruit.com/assets/109663 (Pinout)
 
 TODO: https://forums.adafruit.com/viewtopic.php?f=8&t=191501&p=926488#p926488
 
-#### Linux
+#### ESP32-C3 on Linux
 TODO
 
-#### Windows
+#### ESP32-C3 on Windows
 TODO
 
 ### STM32F405
-#### MacOS
+#### STM32F405 on MacOS
     $ brew install dfu-util
     $ brew install gcc-arm-embedded --cask
     $ which arm-none-eabi-gdb
@@ -183,10 +183,10 @@ TODO
     $ west build -p auto -b adafruit_feather_stm32f405 samples/basic/blinky
     $ west flash
 
-#### Linux
+#### STM32F405 on Linux
 TODO
 
-#### Windows
+#### STM32F405 on Windows
 TODO
 
 ## GPIO & Sensoren
