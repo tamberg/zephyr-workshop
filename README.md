@@ -28,10 +28,10 @@ Der Workshop setzt ein Wi-Fi Netzwerk voraus, das ohne Portal zugänglich ist. F
 
 ## Einführung
 ### Zephyr RTOS
-> Secure - Developed with security in mind. Includes CNA with PSIRT response team.
-> Open Source - Available through the Apache 2.0 open source license. Free to use in commercial and non-commercial solutions.
-> Product Ready - Long term support (LTS) with security updates. Auditable code base developed with a goal of safety certifications.
-> Connected - Supports Bluetooth® Low Energy, Wi-Fi*, 802.15.4. Supports standards like 6LoWPAN, CoAP, IPv4, IPv6, Ethernet, USB, CAN and Thread.
+> * Secure - Developed with security in mind. Includes CNA with PSIRT response team.
+> * Open Source - Available through the Apache 2.0 open source license. Free to use in commercial and non-commercial solutions.
+> * Product Ready - Long term support (LTS) with security updates. Auditable code base developed with a goal of safety certifications.
+> * Connected - Supports Bluetooth® Low Energy, Wi-Fi*, 802.15.4. Supports standards like 6LoWPAN, CoAP, IPv4, IPv6, Ethernet, USB, CAN and Thread.
 https://zephyrproject.org/
 
 https://docs.zephyrproject.org/latest/introduction/index.html
