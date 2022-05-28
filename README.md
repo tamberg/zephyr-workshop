@@ -130,6 +130,11 @@ Dieses Beispiel läuft ohne embedded Hardware, auf MacOS, Linux oder Windows.
     $ west build -p auto -b qemu_x86 samples/hello_world
     $ west build -t run
 
+    SeaBIOS (version rel-1.15.0-0-g2dd4b9b3f840-prebuilt.qemu.org)
+    Booting from ROM..
+    *** Booting Zephyr OS build zephyr-v3.0.0-3797-gc28874657b70  ***
+    Hello World! qemu_x86
+
 ## Hardware Setup
 https://docs.zephyrproject.org/latest/boards/index.html
 
