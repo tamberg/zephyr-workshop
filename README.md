@@ -125,7 +125,7 @@ TODO
 
 ### Hello World
 #### Hello World auf x86 Qemu
-Dieses Beispiel läuft ohne Hardware, auf MacOS, Linux oder Windows.
+Dieses Beispiel läuft ohne embedded Hardware, auf MacOS, Linux oder Windows.
 
     $ west build -p auto -b qemu_x86 samples/hello_world
     $ west build -t run
