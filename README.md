@@ -64,6 +64,19 @@ https://docs.zephyrproject.org/latest/introduction/index.html
 
 https://docs.zephyrproject.org/latest/introduction/index.html#distinguishing-features
 
+### Kernel Services
+> The Zephyr kernel lies at the heart of every Zephyr application. It provides a low footprint, high performance, multi-threaded execution environment with a rich set of available features. The rest of the Zephyr ecosystem, including device drivers, networking stack, and application-specific code, uses the kernel’s features to create a complete application.
+
+> * Scheduling, Interrupts, and Synchronization
+> * Data Passing
+> * Memory Management
+> * Timing
+> * Other
+
+https://docs.zephyrproject.org/latest/kernel/services/index.html
+
+### 
+
 ### Build System
 > CMake is used to build your application together with the Zephyr kernel. A CMake build is done in two stages. The first stage is called configuration. During configuration, the CMakeLists.txt build scripts are executed. After configuration is finished, CMake has an internal model of the Zephyr build, and can generate build scripts that are native to the host platform.
 
@@ -78,8 +91,6 @@ https://docs.zephyrproject.org/latest/build/cmake/index.html#pre-build, [#interm
 
 ### Device Tree
 https://docs.zephyrproject.org/latest/build/dts/intro.html
-
-### ...
 
 ## Toolchain Setup
 https://docs.zephyrproject.org/latest/develop/getting_started/index.html
