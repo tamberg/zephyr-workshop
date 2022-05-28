@@ -36,7 +36,7 @@ Der Workshop setzt ein Wi-Fi Netzwerk voraus, das ohne Portal zugänglich ist. F
 
 > Product Ready - Long term support (LTS) with security updates. Auditable code base developed with a goal of safety certifications.
 
-> Connected - Supports BLE, Wi-Fi*, 802.15.4. Supports standards like 6LoWPAN, CoAP, IPv4, IPv6, Ethernet, USB, CAN and Thread.
+> Connected - Supports BLE, Wi-Fi, 802.15.4. Supports standards like 6LoWPAN, CoAP, IPv4, IPv6, Ethernet, USB, CAN and Thread.
 
 https://zephyrproject.org/
 
