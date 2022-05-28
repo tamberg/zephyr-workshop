@@ -84,7 +84,8 @@ https://docs.zephyrproject.org/latest/build/dts/intro.html
 ## Toolchain Setup
 https://docs.zephyrproject.org/latest/develop/getting_started/index.html
 
-### Zephyr (MacOS)
+### Zephyr
+#### MacOS
     $ brew install cmake ninja gperf python3 ccache qemu dtc wget
     $ pip3 install -U west
 
@@ -105,10 +106,10 @@ https://docs.zephyrproject.org/latest/develop/getting_started/index.html
 
 (Tipps zu Brew, XCode, etc. siehe https://learn.adafruit.com/blinking-led-with-zephyr-rtos/installing-zephyr-osx)
 
-### Zephyr (Linux)
+#### Linux
 TODO
 
-### Zephyr (Windows)
+#### Windows
 TODO
 
 ### Hello World (any OS)
@@ -118,13 +119,14 @@ TODO
 ## Hardware Setup
 https://docs.zephyrproject.org/latest/boards/index.html
 
-### ESP32-S2 (MacOS)
+### ESP32-S2
 https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html
 
 https://www.adafruit.com/product/5325 (Adafruit QT Py ESP32-S2 WiFi Dev Board)
 
 https://learn.adafruit.com/assets/107493 (Pinout)
 
+#### MacOS
     $ pip3 install --upgrade esptool
     $ cd ~/Documents/Zephyr/zephyrproject
     $ west espressif update
@@ -133,13 +135,20 @@ https://learn.adafruit.com/assets/107493 (Pinout)
     $ west build -p auto -b esp32s2_saola samples/basic/blinky
     $ west flash
 
-### ESP32-C3 (MacOS)
+#### Linux
+TODO
+
+#### Windows
+TODO
+
+### ESP32-C3
 https://docs.zephyrproject.org/latest/boards/riscv/esp32c3_devkitm/doc/index.html
 
 https://www.adafruit.com/product/5405 (Adafruit QT Py ESP32-C3 WiFi Dev Board)
 
 https://learn.adafruit.com/assets/109663 (Pinout)
 
+#### MacOS
     $ west espressif update
     $ cat samples/hello_world/src/main.c
     $ west build -p auto -b esp32c3_devkitm samples/hello_world
@@ -149,7 +158,14 @@ https://learn.adafruit.com/assets/109663 (Pinout)
 
 TODO: https://forums.adafruit.com/viewtopic.php?f=8&t=191501&p=926488#p926488
 
-### STM32F405 (MacOS)
+#### Linux
+TODO
+
+#### Windows
+TODO
+
+### STM32F405
+#### MacOS
     $ brew install dfu-util
     $ brew install gcc-arm-embedded --cask
     $ which arm-none-eabi-gdb
@@ -162,6 +178,12 @@ TODO: https://forums.adafruit.com/viewtopic.php?f=8&t=191501&p=926488#p926488
     $ cat samples/basic/blinky/src/main.c
     $ west build -p auto -b adafruit_feather_stm32f405 samples/basic/blinky
     $ west flash
+
+#### Linux
+TODO
+
+#### Windows
+TODO
 
 ## GPIO & Sensoren
 ### Blinky (Digital Output)
