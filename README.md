@@ -85,7 +85,7 @@ https://docs.zephyrproject.org/latest/build/dts/intro.html
 https://docs.zephyrproject.org/latest/develop/getting_started/index.html
 
 ### Zephyr
-#### Zephyr on MacOS
+#### Zephyr auf MacOS
     $ brew install cmake ninja gperf python3 ccache qemu dtc wget
     $ pip3 install -U west
 
@@ -106,13 +106,14 @@ https://docs.zephyrproject.org/latest/develop/getting_started/index.html
 
 (Tipps zu Brew, XCode, etc. siehe https://learn.adafruit.com/blinking-led-with-zephyr-rtos/installing-zephyr-osx)
 
-#### Zephyr on Linux
+#### Zephyr auf Linux
 TODO
 
-#### Zephyr on Windows
+#### Zephyr auf Windows
 TODO
 
 ### Hello World
+#### Hello World auf Qemu
     $ west build -p auto -b qemu_x86 samples/hello_world
     $ west build -t run
 
@@ -130,7 +131,7 @@ https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html
 ![ESP32-S2, (c) Adafruit](https://cdn-learn.adafruit.com/assets/assets/000/107/493/original/adafruit_products_Adafruit_QT_Py_ESP32-S2_Pinout.png?1640130293)
 https://learn.adafruit.com/assets/107493 (Pinout)
 
-#### ESP32-S2 on MacOS
+#### ESP32-S2 auf MacOS
     $ pip3 install --upgrade esptool
     $ cd ~/Documents/Zephyr/zephyrproject
     $ west espressif update
@@ -139,10 +140,10 @@ https://learn.adafruit.com/assets/107493 (Pinout)
     $ west build -p auto -b esp32s2_saola samples/basic/blinky
     $ west flash
 
-#### ESP32-S2 on Linux
+#### ESP32-S2 auf Linux
 TODO
 
-#### ESP32-S2 on Windows
+#### ESP32-S2 auf Windows
 TODO
 
 ### ESP32-C3
@@ -152,7 +153,7 @@ https://www.adafruit.com/product/5405 (Adafruit QT Py ESP32-C3 WiFi Dev Board)
 
 https://learn.adafruit.com/assets/109663 (Pinout)
 
-#### ESP32-C3 on MacOS
+#### ESP32-C3 auf MacOS
     $ west espressif update
     $ cat samples/hello_world/src/main.c
     $ west build -p auto -b esp32c3_devkitm samples/hello_world
@@ -162,14 +163,14 @@ https://learn.adafruit.com/assets/109663 (Pinout)
 
 TODO: https://forums.adafruit.com/viewtopic.php?f=8&t=191501&p=926488#p926488
 
-#### ESP32-C3 on Linux
+#### ESP32-C3 auf Linux
 TODO
 
-#### ESP32-C3 on Windows
+#### ESP32-C3 auf Windows
 TODO
 
 ### STM32F405
-#### STM32F405 on MacOS
+#### STM32F405 auf MacOS
     $ brew install dfu-util
     $ brew install gcc-arm-embedded --cask
     $ which arm-none-eabi-gdb
@@ -183,10 +184,10 @@ TODO
     $ west build -p auto -b adafruit_feather_stm32f405 samples/basic/blinky
     $ west flash
 
-#### STM32F405 on Linux
+#### STM32F405 auf Linux
 TODO
 
-#### STM32F405 on Windows
+#### STM32F405 auf Windows
 TODO
 
 ## GPIO & Sensoren
