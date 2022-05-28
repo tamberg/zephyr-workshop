@@ -44,6 +44,26 @@ https://zephyrproject.org/
 
 https://docs.zephyrproject.org/latest/introduction/index.html
 
+> * Extensive suite of Kernel services
+> * Multiple Scheduling Algorithms
+> * Highly configurable / Modular for flexibility
+> * Cross Architecture
+> * Memory Protection
+> * Compile-time resource definition
+> * Optimized Device Driver Model
+> * Devicetree Support
+> * Native Networking Stack supporting multiple protocols
+> * Bluetooth Low Energy 5.0 support
+> * Native Linux, macOS, and Windows Development
+> * Virtual File System Interface with LittleFS and FATFS Support
+> * Powerful multi-backend logging Framework
+> * User friendly and full-featured Shell interface
+> *  Settings on non-volatile storage
+> * Non-volatile storage (NVS)
+> * Native POSIX port
+
+https://docs.zephyrproject.org/latest/introduction/index.html#distinguishing-features
+
 ### Build System
 > CMake is used to build your application together with the Zephyr kernel. A CMake build is done in two stages. The first stage is called configuration. During configuration, the CMakeLists.txt build scripts are executed. After configuration is finished, CMake has an internal model of the Zephyr build, and can generate build scripts that are native to the host platform.
 
