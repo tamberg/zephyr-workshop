@@ -39,6 +39,10 @@ https://docs.zephyrproject.org/latest/build/cmake/index.html
 > <img text="Build Config Phase, (c) Zephyr Project" src="https://docs.zephyrproject.org/latest/_images/build-config-phase.svg" width="540"/>
 https://docs.zephyrproject.org/latest/build/cmake/index.html#configuration-phase
 
+> <img text="Build Phase I, (c) Zephyr Project" src="https://docs.zephyrproject.org/latest/_images/build-build-phase-1.svg" width="240"/> <img text="Build Phase II, (c) Zephyr Project" src="https://docs.zephyrproject.org/latest/_images/build-build-phase-2.svg" width="240"/> <img text="Build Phase III, (c) Zephyr Project" src="https://docs.zephyrproject.org/latest/_images/build-build-phase-3.svg" width="240"/> <img text="Build Phase IV, (c) Zephyr Project" src="https://docs.zephyrproject.org/latest/_images/build-build-phase-4.svg" width="240"/> <img text="Build Phase V, (c) Zephyr Project" src="https://docs.zephyrproject.org/latest/_images/build-build-phase-5.svg" width="240"/>
+
+
+
 ### Device Tree
 https://docs.zephyrproject.org/latest/build/dts/intro.html
 
