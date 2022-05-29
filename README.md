@@ -146,8 +146,7 @@ https://www.adafruit.com/product/5325 (Adafruit QT Py ESP32-S2 WiFi Dev Board)
 https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html
 
 #### Pinout
-![ESP32-S2, (c) Adafruit](https://cdn-learn.adafruit.com/assets/assets/000/107/493/original/adafruit_products_Adafruit_QT_Py_ESP32-S2_Pinout.png?1640130293)
-https://learn.adafruit.com/assets/107493 (Pinout)
+<img text="ESP32-S2, (c) Adafruit" src="https://cdn-learn.adafruit.com/assets/assets/000/107/493/original/adafruit_products_Adafruit_QT_Py_ESP32-S2_Pinout.png?1640130293"/>
 
 #### ESP32-S2 auf MacOS
     $ pip3 install --upgrade esptool
