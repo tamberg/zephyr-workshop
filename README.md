@@ -75,7 +75,8 @@ https://docs.zephyrproject.org/latest/introduction/index.html#distinguishing-fea
 
 https://docs.zephyrproject.org/latest/kernel/services/index.html
 
-### 
+### OS Services
+> Cryptography, Debugging, Device Management, File Systems, Formatted Output, Logging, Tracing, Resource Management, Modbus , Asynchronous Notifications, Power Management, OS Abstraction, Shell, Settings, State Machine Framework, Storage, Task Watchdog, Trusted Firmware-M, USB device support, Virtualization, Miscellaneous
 
 ### Build System
 > CMake is used to build your application together with the Zephyr kernel. A CMake build is done in two stages. The first stage is called configuration. During configuration, the CMakeLists.txt build scripts are executed. After configuration is finished, CMake has an internal model of the Zephyr build, and can generate build scripts that are native to the host platform.
