@@ -146,7 +146,7 @@ https://www.adafruit.com/product/5325 (Adafruit QT Py ESP32-S2 WiFi Dev Board)
 https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html
 
 #### Pinout
-<img text="ESP32-S2, (c) Adafruit" src="https://cdn-learn.adafruit.com/assets/assets/000/107/493/original/adafruit_products_Adafruit_QT_Py_ESP32-S2_Pinout.png?1640130293" width="540"/>
+<img text="ESP32-S2, (c) Adafruit" src="https://cdn-learn.adafruit.com/assets/assets/000/107/493/original/adafruit_products_Adafruit_QT_Py_ESP32-S2_Pinout.png?1640130293" width="800"/>
 
 https://learn.adafruit.com/assets/107493
 
@@ -173,7 +173,7 @@ https://www.adafruit.com/product/5405 (Adafruit QT Py ESP32-C3 WiFi Dev Board)
 https://docs.zephyrproject.org/latest/boards/riscv/esp32c3_devkitm/doc/index.html
 
 #### Pinout
-<img text="ESP32-S2, (c) Adafruit" src="https://cdn-learn.adafruit.com/assets/assets/000/109/663/original/adafruit_products_image.png?1647278794" width="540"/>
+<img text="ESP32-S2, (c) Adafruit" src="https://cdn-learn.adafruit.com/assets/assets/000/109/663/original/adafruit_products_image.png?1647278794" width="800"/>
 
 https://learn.adafruit.com/assets/109663
 
