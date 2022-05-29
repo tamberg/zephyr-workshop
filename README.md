@@ -44,7 +44,7 @@ https://zephyrproject.org/
 
 https://docs.zephyrproject.org/latest/introduction/index.html
 
-> Extensive suite of Kernel services, Multiple Scheduling Algorithms, Highly configurable / Modular for flexibility, Cross Architecture, Memory Protection, Compile-time resource definition, Optimized Device Driver Model, Devicetree Support, Native Networking Stack supporting multiple protocols, Bluetooth Low Energy 5.0 support, Native Linux, macOS, and Windows Development, Virtual File System Interface with LittleFS and FATFS Support, Powerful multi-backend logging Framework, User friendly and full-featured Shell interface, Settings on non-volatile storage, Non-volatile storage (NVS), Native POSIX port.
+> Extensive suite of Kernel services • Multiple Scheduling Algorithms • Highly configurable / Modular for flexibility • Cross Architecture • Memory Protection • Compile-time resource definition • Optimized Device Driver Model • Devicetree Support • Native Networking Stack supporting multiple protocols • Bluetooth Low Energy 5.0 support • Native Linux • macOS • and Windows Development • Virtual File System Interface with LittleFS and FATFS Support • Powerful multi-backend logging Framework • User friendly and full-featured Shell interface • Settings on non-volatile storage • Non-volatile storage (NVS) • Native POSIX port.
 
 https://docs.zephyrproject.org/latest/introduction/index.html#distinguishing-features
 
@@ -60,7 +60,7 @@ https://docs.zephyrproject.org/latest/introduction/index.html#distinguishing-fea
 https://docs.zephyrproject.org/latest/kernel/services/index.html
 
 ### OS Services
-> Cryptography, Debugging, Device Management, File Systems, Formatted Output, Logging, Tracing, Resource Management, Modbus , Asynchronous Notifications, Power Management, OS Abstraction, Shell, Settings, State Machine Framework, Storage, Task Watchdog, Trusted Firmware-M, USB device support, Virtualization, Miscellaneous.
+> Cryptography • Debugging • Device Management • File Systems • Formatted Output • Logging • Tracing • Resource Management • Modbus • Asynchronous Notifications • Power Management • OS Abstraction • Shell • Settings • State Machine Framework • Storage • Task Watchdog • Trusted Firmware-M • USB device support • Virtualization • Miscellaneous.
 
 https://docs.zephyrproject.org/latest/services/index.html
 
