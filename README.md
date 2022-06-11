@@ -111,7 +111,7 @@ TODO
 TODO
 
 ### Hello World
-[samples/hello_world/src/main.c](https://github.com/zephyrproject-rtos/zephyr/blob/main/samples/hello_world/src/main.c)
+Siehe [samples/hello_world/src/main.c](https://github.com/zephyrproject-rtos/zephyr/blob/main/samples/hello_world/src/main.c)
 
     #include <zephyr/zephyr.h>
 
