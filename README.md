@@ -239,18 +239,18 @@ TODO
 
 ## GPIO & Sensoren
 ### Blinky (Digital Output)
-https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/basic/blinky
+Siehe [samples/basic/blinky](https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/basic/blinky)
 
 ### Button (Digital Input)
-https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/basic/button
+Siehe [samples/basic/button](https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/basic/button)
 
 ### DHT11 Temperatur & Feuchtigkeit
-https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/sensor/dht
+Siehe [samples/sensor/dht](https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/sensor/dht)
 
-https://github.com/zephyrproject-rtos/zephyr/blob/main/samples/sensor/dht/boards/nrf52dk_nrf52832.overlay
+Und [samples/sensor/dht/boards/nrf52dk_nrf52832.overlay](https://github.com/zephyrproject-rtos/zephyr/blob/main/samples/sensor/dht/boards/nrf52dk_nrf52832.overlay)
 
 ### Weitere Sensoren
-https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/sensor
+Siehe [samples/sensor](https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/sensor)
 
 ## Threads & Mutex
 TODO
