@@ -118,7 +118,7 @@ TODO
     #include <zephyr/zephyr.h>
 
     void main(void) {
-	printk("Hello World! %s\n", CONFIG_BOARD);
+        printk("Hello World! %s\n", CONFIG_BOARD);
     }
 
 #### Hello World auf x86 Qemu
