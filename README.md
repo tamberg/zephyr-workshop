@@ -129,7 +129,7 @@ TODO
 TODO
 
 ### Hello World
-Siehe [samples/hello_world/src/main.c](https://github.com/zephyrproject-rtos/zephyr/blob/main/samples/hello_world/src/main.c)
+Siehe [samples/hello_world](https://github.com/zephyrproject-rtos/zephyr/blob/main/samples/hello_world)
 
     #include <zephyr/zephyr.h>
 
