@@ -111,6 +111,16 @@ TODO
 TODO
 
 ### Hello World
+#### Hello World Source Code
+
+    $ cat samples/hello_world/src/main.c
+
+    #include <zephyr/zephyr.h>
+
+    void main(void) {
+	printk("Hello World! %s\n", CONFIG_BOARD);
+    }
+
 #### Hello World auf x86 Qemu
 Dieses Beispiel läuft ohne embedded Hardware, auf MacOS, Linux oder Windows.
 
