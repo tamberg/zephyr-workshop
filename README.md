@@ -112,8 +112,7 @@ TODO
 
 ### Hello World
 #### Hello World Source Code
-
-    $ cat samples/hello_world/src/main.c
+[samples/hello_world/src/main.c](https://github.com/zephyrproject-rtos/zephyr/blob/main/samples/hello_world/src/main.c)
 
     #include <zephyr/zephyr.h>
 
