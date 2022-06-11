@@ -195,8 +195,8 @@ https://learn.adafruit.com/assets/109663
 
 #### Device Tree
 - [/boards/riscv/esp32c3_devkitm/esp32c3_devkitm.dts](https://github.com/zephyrproject-rtos/zephyr/blob/main/boards/riscv/esp32c3_devkitm/esp32c3_devkitm.dts)
-- [/boards/riscv/esp32c3_devkitm/esp32c3_devkitm-pinctrl.dtsi](https://github.com/zephyrproject-rtos/zephyr/blob/main/boards/riscv/esp32c3_devkitm/esp32c3_devkitm-pinctrl.dtsi)
 - [/dts/riscv/espressif/esp32c3.dtsi](https://github.com/zephyrproject-rtos/zephyr/blob/main/dts/riscv/espressif/esp32c3.dtsi)
+- [/boards/riscv/esp32c3_devkitm/esp32c3_devkitm-pinctrl.dtsi](https://github.com/zephyrproject-rtos/zephyr/blob/main/boards/riscv/esp32c3_devkitm/esp32c3_devkitm-pinctrl.dtsi)
 - [/boards/riscv/esp32c3_devkitm/esp32c3_devkitm.yaml](https://github.com/zephyrproject-rtos/zephyr/blob/main/boards/riscv/esp32c3_devkitm/esp32c3_devkitm.yaml)
 - [/boards/riscv/esp32c3_devkitm/esp32c3_devkitm_defconfig](https://github.com/zephyrproject-rtos/zephyr/blob/main/boards/riscv/esp32c3_devkitm/esp32c3_devkitm_defconfig)
 
