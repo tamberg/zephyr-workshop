@@ -85,9 +85,13 @@ https://docs.zephyrproject.org/latest/build/cmake/index.html#pre-build, [#interm
 
 https://docs.zephyrproject.org/latest/build/dts/intro.html
 
-> TODO: devicetree source
+> As the name indicates, a devicetree is a tree. The human-readable text format for this tree is called DTS (for devicetree source)
 
-https://...
+> Devicetree nodes have _paths_ identifying their locations in the tree [and] _properties_ [which] are name/value pairs.
+
+> In practice, devicetree nodes usually correspond to some hardware, and the node hierarchy reflects the hardware’s physical layout.
+
+https://docs.zephyrproject.org/latest/build/dts/intro.html#syntax-and-structure
 
 > A devicetree binding declares requirements on the contents of nodes, and provides semantic information about the contents of valid nodes. Zephyr devicetree bindings are YAML files
 
