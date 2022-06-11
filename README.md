@@ -85,6 +85,10 @@ https://docs.zephyrproject.org/latest/build/cmake/index.html#pre-build, [#interm
 
 https://docs.zephyrproject.org/latest/build/dts/intro.html
 
+> TODO: devicetree source
+
+https://...
+
 > A devicetree binding declares requirements on the contents of nodes, and provides semantic information about the contents of valid nodes. Zephyr devicetree bindings are YAML files
 
 https://docs.zephyrproject.org/latest/build/dts/bindings.html
