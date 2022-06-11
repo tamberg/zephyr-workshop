@@ -85,7 +85,7 @@ https://docs.zephyrproject.org/latest/build/cmake/index.html#pre-build, [#interm
 
 https://docs.zephyrproject.org/latest/build/dts/intro.html
 
-> As the name indicates, a devicetree is a tree. The human-readable text format for this tree is called DTS (for devicetree source)
+> a devicetree is a tree. The human-readable text format for this tree is called DTS (for devicetree source)
 
 > Devicetree nodes have _paths_ identifying their locations in the tree [and] _properties_ [which] are name/value pairs.
 
