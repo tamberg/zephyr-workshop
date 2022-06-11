@@ -77,6 +77,12 @@ https://docs.zephyrproject.org/latest/build/cmake/index.html#configuration-phase
 https://docs.zephyrproject.org/latest/build/cmake/index.html#pre-build, [#intermediate-binaries](https://docs.zephyrproject.org/latest/build/cmake/index.html#intermediate-binaries), [#intermediate-binaries-post-processing](https://docs.zephyrproject.org/latest/build/cmake/index.html#intermediate-binaries-post-processing), [#final-binary](https://docs.zephyrproject.org/latest/build/cmake/index.html#final-binary), [#post-processing](https://docs.zephyrproject.org/latest/build/cmake/index.html#post-processing)
 
 ### Device Tree
+> A devicetree is a hierarchical data structure that describes hardware.
+
+> There are two types of devicetree input files: devicetree sources and devicetree bindings. The sources contain the devicetree itself. The bindings describe its contents, including data types.
+
+> <img text="Device Tree Build Flow, (c) Zephyr Project" src="https://docs.zephyrproject.org/latest/_images/zephyr_dt_build_flow.png" width="540"/>
+
 https://docs.zephyrproject.org/latest/build/dts/intro.html
 
 ## Toolchain Setup
