@@ -189,9 +189,12 @@ https://www.adafruit.com/product/5405 (Adafruit QT Py ESP32-C3 WiFi Dev Board)
 https://docs.zephyrproject.org/latest/boards/riscv/esp32c3_devkitm/doc/index.html
 
 #### Pinout
-<img text="ESP32-S2, (c) Adafruit" src="https://cdn-learn.adafruit.com/assets/assets/000/109/663/original/adafruit_products_image.png?1647278794" width="640"/>
+<img text="ESP32-S2, (c) Adafruit" src="https://cdn-learn.adafruit.com/assets/assets/000/109/663/original/adafruit_products_image.png" width="640"/>
 
 https://learn.adafruit.com/assets/109663
+
+#### Datasheet
+- [ESP32-C3 Series datasheet](https://cdn-learn.adafruit.com/assets/assets/000/109/795/original/esp32-c3_datasheet_en.pdf)
 
 #### Device Tree
 - [/boards/riscv/esp32c3_devkitm/esp32c3_devkitm.dts](https://github.com/zephyrproject-rtos/zephyr/blob/main/boards/riscv/esp32c3_devkitm/esp32c3_devkitm.dts)
