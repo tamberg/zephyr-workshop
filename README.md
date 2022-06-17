@@ -194,7 +194,7 @@ https://docs.zephyrproject.org/latest/boards/riscv/esp32c3_devkitm/doc/index.htm
 https://learn.adafruit.com/assets/109663
 
 #### Datasheets
-* [ESP32-C3 Series Datasheet](https://cdn-learn.adafruit.com/assets/assets/000/109/795/original/esp32-c3_datasheet_en.pdf)
+* [ESP32-C3 Series Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf)
 * [ESP32-C3 Technical Reference Manual](https://www.espressif.com/sites/default/files/documentation/esp32-c3_technical_reference_manual_en.pdf)
 
 #### Device Tree
