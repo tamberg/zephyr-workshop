@@ -99,8 +99,13 @@ https://docs.zephyrproject.org/latest/build/dts/bindings.html
 
 > step-by-step advice for getting things done with devicetree.
 
-> Show final devicetree after a build 
-> $ cat build/zephyr/zephyr.dts
+> Show final devicetree after a build
+    
+    $ cat build/zephyr/zephyr.dts
+
+> Show final devicetree includes
+
+    $ cat build/zephyr/include/generated/devicetree_unfixed.h
 
 https://docs.zephyrproject.org/latest/build/dts/howtos.html
 
