@@ -119,6 +119,8 @@ https://docs.zephyrproject.org/latest/build/dts/howtos.html
 
 > BOARD.dts can be extended or modified using [...] .overlay [...] DTS files [to] adapt the base devicetree for different purposes
 
+> Zephyr applications can use overlays to enable a peripheral that is disabled by default, select a sensor on the board for an application specific purpose, etc. [or] defining shields.
+
 https://docs.zephyrproject.org/latest/build/dts/intro.html#input-and-output-files
 
 > Here are some tips for fixing devicetree related code.
