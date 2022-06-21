@@ -109,7 +109,7 @@ https://docs.zephyrproject.org/latest/build/dts/bindings.html
 
 https://docs.zephyrproject.org/latest/build/dts/howtos.html
 
-> Devicetree input (green) and output (yellow) files¶
+> Devicetree input (green) and output (yellow) files
 
 > <img text="Device Tree Inputs and Outputs, (c) Zephyr Project" src="https://docs.zephyrproject.org/latest/_images/zephyr_dt_inputs_outputs.svg" width="640"/>
 
