@@ -353,5 +353,6 @@ TODO
 
 ## Random
 ### Nordic nRF Connect SDK Zephyr Fork
+* https://github.com/nrfconnect/sdk-zephyr
 * https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/index.html
 * https://devzone.nordicsemi.com/f/nordic-q-a/77257/relationship-sdk-zephyr-and-zephyhrproject-zephyr
