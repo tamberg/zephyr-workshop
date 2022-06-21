@@ -76,7 +76,7 @@ https://docs.zephyrproject.org/latest/build/cmake/index.html#configuration-phase
 
 https://docs.zephyrproject.org/latest/build/cmake/index.html#pre-build, [#intermediate-binaries](https://docs.zephyrproject.org/latest/build/cmake/index.html#intermediate-binaries), [#intermediate-binaries-post-processing](https://docs.zephyrproject.org/latest/build/cmake/index.html#intermediate-binaries-post-processing), [#final-binary](https://docs.zephyrproject.org/latest/build/cmake/index.html#final-binary), [#post-processing](https://docs.zephyrproject.org/latest/build/cmake/index.html#post-processing)
 
-### Device Tree Overview
+### Devicetree Überblick
 > A devicetree is a hierarchical data structure that describes hardware.
 
 > There are two types of devicetree input files: devicetree sources and devicetree bindings. The sources contain the devicetree itself. The bindings describe its contents, including data types.
@@ -97,7 +97,7 @@ https://docs.zephyrproject.org/latest/build/dts/intro.html#syntax-and-structure
 
 https://docs.zephyrproject.org/latest/build/dts/bindings.html
 
-### Device Tree Detail
+### Devicetree im Detail
 
 > Step-by-step advice for getting things done with devicetree.
 
@@ -124,6 +124,8 @@ https://docs.zephyrproject.org/latest/build/dts/howtos.html
 > Zephyr applications can use overlays to enable a peripheral that is disabled by default, select a sensor on the board for an application specific purpose, etc. [or] defining shields.
 
 https://docs.zephyrproject.org/latest/build/dts/intro.html#input-and-output-files
+
+### Devicetree Troubleshooting
 
 > Here are some tips for fixing devicetree related code.
 >
