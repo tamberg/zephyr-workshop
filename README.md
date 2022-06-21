@@ -109,7 +109,7 @@ https://docs.zephyrproject.org/latest/build/dts/bindings.html
 
 https://docs.zephyrproject.org/latest/build/dts/howtos.html
 
-> <img text="Device Tree Inputs and Outputs, (c) Zephyr Project" src="https://docs.zephyrproject.org/latest/_images/zephyr_dt_inputs_outputs.svg" width="540"/>
+> <img text="Device Tree Inputs and Outputs, (c) Zephyr Project" src="https://docs.zephyrproject.org/latest/_images/zephyr_dt_inputs_outputs.svg" width="640"/>
 
 https://docs.zephyrproject.org/latest/build/dts/intro.html#input-and-output-files
 
