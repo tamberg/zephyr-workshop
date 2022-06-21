@@ -151,6 +151,10 @@ Dieses Beispiel läuft ohne embedded Hardware, auf MacOS, Linux oder Windows.
 ## Hardware Setup
 https://docs.zephyrproject.org/latest/boards/index.html
 
+* [ESP32-S2](#esp32-s2)
+* [ESP32-C3](#esp32-c3)
+* [STM32F405](#stm32f405)
+
 ### ESP32-S2
 #### Buy
 https://www.adafruit.com/product/5325 (Adafruit QT Py ESP32-S2 WiFi Dev Board)
