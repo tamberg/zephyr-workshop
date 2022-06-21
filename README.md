@@ -97,6 +97,18 @@ https://docs.zephyrproject.org/latest/build/dts/intro.html#syntax-and-structure
 
 https://docs.zephyrproject.org/latest/build/dts/bindings.html
 
+> Here are some tips for fixing devicetree related code.
+>
+> * Try again with a pristine build directory
+> * Make sure <devicetree.h> is included
+> * Make sure you’re using the right names
+> * Look at the preprocessor output
+> * Validate properties
+> * Check for missing bindings
+> * Errors with DT_INST_() APIs
+
+https://docs.zephyrproject.org/latest/build/dts/troubleshooting.html#dt-trouble
+
 ## Toolchain Setup
 https://docs.zephyrproject.org/latest/develop/getting_started/index.html
 
