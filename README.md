@@ -345,6 +345,7 @@ TODO
 * https://blog.golioth.io/zephyr-does-ethernet-too/
 * https://blog.golioth.io/esp32-esp-at-enables-connectivity-on-any-zephyr-project/
 * https://github.com/golioth/golioth-zephyr-sdk/tree/main/samples/hello#nrf52840-dk--esp32-wroom-32
+* https://github.com/uLipe/zephyr-esp32-mqtt-demo
 
 TODO
 
