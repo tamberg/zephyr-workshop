@@ -350,3 +350,8 @@ TODO
 * https://blog.golioth.io/debugging-zephyr-for-beginners-printk-and-the-logging-subsystem/
 * https://docs.zephyrproject.org/latest/kernel/services/other/fatal.html (Runtime Assertions)
 * https://www.irnas.eu/remote-zephyr-development-with-segger-tunnel-and-a-raspberry-pi/
+
+## Random
+### Nordic Fork
+* https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/index.html
+* https://devzone.nordicsemi.com/f/nordic-q-a/77257/relationship-sdk-zephyr-and-zephyhrproject-zephyr
