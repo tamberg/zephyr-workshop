@@ -229,7 +229,11 @@ https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html
 * [ESP32-S2 WROVER Technical Reference Manual](https://www.espressif.com/sites/default/files/documentation/esp32-s2-wrover_esp32-s2-wrover-i_datasheet_en.pdf)
 
 #### Device Tree
-TODO
+- [boards/xtensa/esp32s2_saola/esp32s2_saola.dts](https://github.com/zephyrproject-rtos/zephyr/blob/main/boards/xtensa/esp32s2_saola/esp32s2_saola.dts)
+- [dts/xtensa/espressif/esp32s2.dtsi](https://github.com/zephyrproject-rtos/zephyr/blob/main/dts/xtensa/espressif/esp32s2.dtsi)
+- [boards/xtensa/esp32s2_saola/esp32s2_saola-pinctrl.dtsi](https://github.com/zephyrproject-rtos/zephyr/blob/main/boards/xtensa/esp32s2_saola/esp32s2_saola-pinctrl.dtsi)
+- [boards/xtensa/esp32s2_saola/esp32s2_saola.yaml](https://github.com/zephyrproject-rtos/zephyr/blob/main/boards/xtensa/esp32s2_saola/esp32s2_saola.yaml)
+- [boards/xtensa/esp32s2_saola/esp32s2_saola_defconfig](https://github.com/zephyrproject-rtos/zephyr/blob/main/boards/xtensa/esp32s2_saola/esp32s2_saola_defconfig)
 
 #### ESP32-S2 auf MacOS
     $ pip3 install --upgrade esptool
