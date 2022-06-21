@@ -81,7 +81,7 @@ https://docs.zephyrproject.org/latest/build/cmake/index.html#pre-build, [#interm
 
 > There are two types of devicetree input files: devicetree sources and devicetree bindings. The sources contain the devicetree itself. The bindings describe its contents, including data types.
 
-> <img text="Device Tree Build Flow, (c) Zephyr Project" src="https://docs.zephyrproject.org/latest/_images/zephyr_dt_build_flow.png" width="540"/>
+> <img text="Devicetree Build Flow, (c) Zephyr Project" src="https://docs.zephyrproject.org/latest/_images/zephyr_dt_build_flow.png" width="540"/>
 
 https://docs.zephyrproject.org/latest/build/dts/intro.html
 
@@ -113,7 +113,7 @@ https://docs.zephyrproject.org/latest/build/dts/howtos.html
 
 > Devicetree input (green) and output (yellow) files
 
-> <img text="Device Tree Inputs and Outputs, (c) Zephyr Project" src="https://docs.zephyrproject.org/latest/_images/zephyr_dt_inputs_outputs.svg" width="640"/>
+> <img text="Devicetree Inputs and Outputs, (c) Zephyr Project" src="https://docs.zephyrproject.org/latest/_images/zephyr_dt_inputs_outputs.svg" width="640"/>
 
 > There are four types of devicetree input files:
 >
@@ -228,7 +228,7 @@ https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html
 * [ESP32-S2 Technical Reference Manual](https://www.espressif.com/sites/default/files/documentation/esp32-s2_technical_reference_manual_en.pdf)
 * [ESP32-S2 WROVER Technical Reference Manual](https://www.espressif.com/sites/default/files/documentation/esp32-s2-wrover_esp32-s2-wrover-i_datasheet_en.pdf)
 
-#### Device Tree
+#### Devicetree
 - [boards/xtensa/esp32s2_saola/esp32s2_saola.dts](https://github.com/zephyrproject-rtos/zephyr/blob/main/boards/xtensa/esp32s2_saola/esp32s2_saola.dts)
 - [dts/xtensa/espressif/esp32s2.dtsi](https://github.com/zephyrproject-rtos/zephyr/blob/main/dts/xtensa/espressif/esp32s2.dtsi)
 - [boards/xtensa/esp32s2_saola/esp32s2_saola-pinctrl.dtsi](https://github.com/zephyrproject-rtos/zephyr/blob/main/boards/xtensa/esp32s2_saola/esp32s2_saola-pinctrl.dtsi)
@@ -273,7 +273,7 @@ https://docs.zephyrproject.org/latest/boards/riscv/esp32c3_devkitm/doc/index.htm
 * [ESP32-C3 Series Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf)
 * [ESP32-C3 Technical Reference Manual](https://www.espressif.com/sites/default/files/documentation/esp32-c3_technical_reference_manual_en.pdf)
 
-#### Device Tree
+#### Devicetree
 - [/boards/riscv/esp32c3_devkitm/esp32c3_devkitm.dts](https://github.com/zephyrproject-rtos/zephyr/blob/main/boards/riscv/esp32c3_devkitm/esp32c3_devkitm.dts)
 - [/dts/riscv/espressif/esp32c3.dtsi](https://github.com/zephyrproject-rtos/zephyr/blob/main/dts/riscv/espressif/esp32c3.dtsi)
 - [/boards/riscv/esp32c3_devkitm/esp32c3_devkitm-pinctrl.dtsi](https://github.com/zephyrproject-rtos/zephyr/blob/main/boards/riscv/esp32c3_devkitm/esp32c3_devkitm-pinctrl.dtsi)
