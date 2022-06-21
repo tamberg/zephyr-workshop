@@ -117,7 +117,7 @@ https://docs.zephyrproject.org/latest/build/dts/howtos.html
 
 > BOARD.dts includes one or more .dtsi files [which] describe the CPU or system-on-chip Zephyr runs on [and] common hardware features shared by multiple boards.
 
-> BOARD.dts can be extended or modified using [.OVERLAY] DTS files [to] adapt the base devicetree for different purposes
+> BOARD.dts can be extended or modified using [...] .overlay [...] DTS files [to] adapt the base devicetree for different purposes
 
 https://docs.zephyrproject.org/latest/build/dts/intro.html#input-and-output-files
 
