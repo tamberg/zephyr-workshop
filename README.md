@@ -113,6 +113,12 @@ https://docs.zephyrproject.org/latest/build/dts/howtos.html
 
 > <img text="Device Tree Inputs and Outputs, (c) Zephyr Project" src="https://docs.zephyrproject.org/latest/_images/zephyr_dt_inputs_outputs.svg" width="640"/>
 
+> Every supported board has a BOARD.dts file describing its hardware
+
+> BOARD.dts includes one or more .dtsi files [which] describe the CPU or system-on-chip Zephyr runs on [and] common hardware features shared by multiple boards.
+
+> BOARD.dts can be extended or modified using [.OVERLAY] DTS files [to] adapt the base devicetree for different purposes
+
 https://docs.zephyrproject.org/latest/build/dts/intro.html#input-and-output-files
 
 > Here are some tips for fixing devicetree related code.
