@@ -163,9 +163,16 @@ https://www.adafruit.com/product/5325 (Adafruit QT Py ESP32-S2 WiFi Dev Board)
 https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html
 
 #### Pinout
-<img text="ESP32-S2, (c) Adafruit" src="https://cdn-learn.adafruit.com/assets/assets/000/107/493/original/adafruit_products_Adafruit_QT_Py_ESP32-S2_Pinout.png?1640130293" width="800"/>
+<img text="ESP32-S2 Pinout, (c) Adafruit" src="https://cdn-learn.adafruit.com/assets/assets/000/107/493/original/adafruit_products_Adafruit_QT_Py_ESP32-S2_Pinout.png?1640130293" width="800"/>
 
-https://learn.adafruit.com/assets/107493
+* https://learn.adafruit.com/assets/107493 (Pinout)
+* https://learn.adafruit.com/adafruit-qt-py-esp32-s2/pinouts
+
+#### Schematic
+<img text="ESP32-S2 Schematic, (c) Adafruit" src="https://cdn-learn.adafruit.com/assets/assets/000/110/384/original/adafruit_products_QT_Py_rev_C_sch.png?1648589651" width="640"/>
+
+* https://learn.adafruit.com/assets/110384 (Schematic)
+* https://learn.adafruit.com/adafruit-qt-py-esp32-s2/downloads
 
 #### Device Tree
 TODO
