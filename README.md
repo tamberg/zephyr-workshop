@@ -352,6 +352,9 @@ TODO
 * https://www.irnas.eu/remote-zephyr-development-with-segger-tunnel-and-a-raspberry-pi/
 
 ## Random
+### Golioth Posts on Zephyr
+* https://blog.golioth.io/adding-an-out-of-tree-sensor-driver-to-zephyr/
+* https://blog.golioth.io/category/zephyr/ (More)
 ### Nordic nRF Connect SDK Zephyr Fork
 * https://github.com/nrfconnect/sdk-zephyr
 * https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/index.html
