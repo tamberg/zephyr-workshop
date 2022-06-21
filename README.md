@@ -339,6 +339,8 @@ https://docs.zephyrproject.org/latest/connectivity/networking/net-stack-architec
 
 https://docs.zephyrproject.org/latest/connectivity/networking/api/sockets.html
 
+https://blog.golioth.io/zephyr-does-ethernet-too/
+
 TODO
 
 ## Debugging
