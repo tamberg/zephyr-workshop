@@ -191,7 +191,8 @@ https://docs.zephyrproject.org/latest/boards/riscv/esp32c3_devkitm/doc/index.htm
 #### Pinout
 <img text="ESP32-S2, (c) Adafruit" src="https://cdn-learn.adafruit.com/assets/assets/000/109/663/original/adafruit_products_image.png" width="640"/>
 
-https://learn.adafruit.com/assets/109663
+* https://learn.adafruit.com/assets/109663
+* https://learn.adafruit.com/adafruit-qt-py-esp32-c3-wifi-dev-board/pinouts
 
 #### Datasheets
 * [ESP32-C3 Series Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf)
