@@ -174,6 +174,10 @@ https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html
 * https://learn.adafruit.com/assets/110384 (Schematic)
 * https://learn.adafruit.com/adafruit-qt-py-esp32-s2/downloads
 
+#### Datasheet
+* [ESP32-S2 Series Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2_datasheet_en.pdf)
+* [ESP32-S2 Technical Reference Manual](https://www.espressif.com/sites/default/files/documentation/esp32-s2_technical_reference_manual_en.pdf)
+
 #### Device Tree
 TODO
 
