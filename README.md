@@ -352,6 +352,6 @@ TODO
 * https://www.irnas.eu/remote-zephyr-development-with-segger-tunnel-and-a-raspberry-pi/
 
 ## Random
-### Nordic Fork
+### Nordic nRF Connect SDK Zephyr Fork
 * https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/index.html
 * https://devzone.nordicsemi.com/f/nordic-q-a/77257/relationship-sdk-zephyr-and-zephyhrproject-zephyr
