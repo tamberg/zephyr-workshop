@@ -97,6 +97,10 @@ https://docs.zephyrproject.org/latest/build/dts/intro.html#syntax-and-structure
 
 https://docs.zephyrproject.org/latest/build/dts/bindings.html
 
+> step-by-step advice for getting things done with devicetree.
+
+https://docs.zephyrproject.org/latest/build/dts/howtos.html
+
 > Here are some tips for fixing devicetree related code.
 >
 > * Try again with a pristine build directory
