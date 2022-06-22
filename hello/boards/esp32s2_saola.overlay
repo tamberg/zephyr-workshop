@@ -6,13 +6,8 @@
 };
 
 &pinctrl {
-        uart0_tx_gpio43: uart0_tx_gpio43 {
-                pinmux = <0>;
-        };
-
-        uart0_rx_gpio44: uart0_rx_gpio44 {
-                pinmux = <0>;
-        };
+       /delete-property/ uart0_tx_gpio44;
+       /delete-property/ uart0_rx_gpio43;
 
 	uart0_tx_gpio5: uart0_tx_gpio5 {
 		pinmux = <UART0_TX_GPIO5>;
