@@ -223,6 +223,7 @@ https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html
 
 * https://learn.adafruit.com/assets/110384 (Schematic)
 * https://learn.adafruit.com/adafruit-qt-py-esp32-s2/downloads
+* https://github.com/adafruit/Adafruit-QT-Py-ESP32-S2-PCB
 
 #### Datasheets
 * [ESP32-S2 Series Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2_datasheet_en.pdf)
@@ -273,6 +274,7 @@ https://docs.zephyrproject.org/latest/boards/riscv/esp32c3_devkitm/doc/index.htm
 
 * https://learn.adafruit.com/assets/109793 (Schematic)
 * https://learn.adafruit.com/adafruit-qt-py-esp32-c3-wifi-dev-board/downloads
+* https://github.com/adafruit/Adafruit-QT-Py-ESP32-C3-PCB
 
 #### Datasheets
 * [ESP32-C3 Series Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf)
