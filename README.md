@@ -368,3 +368,5 @@ TODO
 * https://github.com/nrfconnect/sdk-zephyr
 * https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/index.html
 * https://devzone.nordicsemi.com/f/nordic-q-a/77257/relationship-sdk-zephyr-and-zephyhrproject-zephyr
+### Videos
+* https://www.youtube.com/watch?v=HqDxohtaFUU&list=PLzRQULb6-ipG39tVb-DEkIoSS5wQlbK6i&index=16 (Using OPC-UA with Zephyr)
