@@ -237,6 +237,9 @@ https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html
 - [boards/xtensa/esp32s2_saola/esp32s2_saola.yaml](https://github.com/zephyrproject-rtos/zephyr/blob/main/boards/xtensa/esp32s2_saola/esp32s2_saola.yaml)
 - [boards/xtensa/esp32s2_saola/esp32s2_saola_defconfig](https://github.com/zephyrproject-rtos/zephyr/blob/main/boards/xtensa/esp32s2_saola/esp32s2_saola_defconfig)
 
+#### Pinmux macros
+- https://github.com/zephyrproject-rtos/hal_espressif/blob/zephyr/include/dt-bindings/pinctrl/esp32s2-pinctrl.h
+
 #### ESP32-S2 auf MacOS
     $ pip3 install --upgrade esptool
     $ cd ~/Documents/Zephyr/zephyrproject
@@ -281,6 +284,9 @@ https://docs.zephyrproject.org/latest/boards/riscv/esp32c3_devkitm/doc/index.htm
 - [/boards/riscv/esp32c3_devkitm/esp32c3_devkitm-pinctrl.dtsi](https://github.com/zephyrproject-rtos/zephyr/blob/main/boards/riscv/esp32c3_devkitm/esp32c3_devkitm-pinctrl.dtsi)
 - [/boards/riscv/esp32c3_devkitm/esp32c3_devkitm.yaml](https://github.com/zephyrproject-rtos/zephyr/blob/main/boards/riscv/esp32c3_devkitm/esp32c3_devkitm.yaml)
 - [/boards/riscv/esp32c3_devkitm/esp32c3_devkitm_defconfig](https://github.com/zephyrproject-rtos/zephyr/blob/main/boards/riscv/esp32c3_devkitm/esp32c3_devkitm_defconfig)
+
+#### Pinmux macros
+- https://github.com/zephyrproject-rtos/hal_espressif/blob/zephyr/include/dt-bindings/pinctrl/esp32c3-pinctrl.h
 
 #### ESP32-C3 auf MacOS
     $ west espressif update
