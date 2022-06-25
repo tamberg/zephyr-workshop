@@ -356,6 +356,10 @@ TODO
 * https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/net/wifi
 * https://github.com/zephyrproject-rtos/zephyr/blob/main/samples/net/sockets/http_get
 * https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/net/sockets/http_client
+* https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/net/sockets/dumb_http_server
+* https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/net/mqtt_publisher
+* https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/net/sockets/coap_client
+* https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/net/sockets/coap_server
 
 * https://blog.golioth.io/zephyr-does-ethernet-too/
 * https://blog.golioth.io/esp32-esp-at-enables-connectivity-on-any-zephyr-project/
