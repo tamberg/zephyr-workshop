@@ -352,6 +352,7 @@ TODO
 * https://docs.zephyrproject.org/latest/connectivity/networking/net-stack-architecture.html
 * https://docs.zephyrproject.org/latest/connectivity/networking/api/sockets.html
 
+* https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/net/wifi
 * https://blog.golioth.io/zephyr-does-ethernet-too/
 * https://blog.golioth.io/esp32-esp-at-enables-connectivity-on-any-zephyr-project/
 * https://github.com/golioth/golioth-zephyr-sdk/tree/main/samples/hello#nrf52840-dk--esp32-wroom-32
