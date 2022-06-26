@@ -158,8 +158,7 @@ Install the Zephyr command line tool _west_
 
 Create a Zephyr workspace _zephyrproject_
 
-    $ mkdir ~/Documents/Zephyr
-    $ cd ~/Documents/Zephyr
+    $ cd ~/Documents
     $ west init zephyrproject
     $ cd zephyrproject
     $ west update
@@ -177,7 +176,7 @@ Install the Zephyr SDK
 
 Clone the workshop directory into the workspace
 
-    $ cd ~/Documents/Zephyr/zephyrproject
+    $ cd ~/Documents/zephyrproject
     $ git clone https://github.com/tamberg/zephyr-workshop
 
 (Tipps zu Brew, XCode, etc. siehe https://learn.adafruit.com/blinking-led-with-zephyr-rtos/installing-zephyr-osx)
