@@ -163,10 +163,11 @@ https://docs.zephyrproject.org/latest/develop/getting_started/index.html
     $ west zephyr-export
     $ pip3 install -r zephyr/scripts/requirements.txt 
 
-    $ wget https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.1/zephyr-sdk-0.14.1_macos-x86_64.tar.gz
-    $ wget -O - https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.1/sha256.sum | shasum --check --ignore-missing
-    $ tar xvf zephyr-sdk-0.14.1_macos-x86_64.tar.gz
-    $ cd zephyr-sdk-0.14.1
+    $ cd ..
+    $ wget https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.2/zephyr-sdk-0.14.2_macos-x86_64.tar.gz
+    $ wget -O - https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.2/sha256.sum | shasum --check --ignore-missing
+    $ tar xvf zephyr-sdk-0.14.2_macos-x86_64.tar.gz
+    $ cd zephyr-sdk-0.14.2
     $ ./setup.sh
 
 (Tipps zu Brew, XCode, etc. siehe https://learn.adafruit.com/blinking-led-with-zephyr-rtos/installing-zephyr-osx)
