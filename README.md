@@ -201,7 +201,7 @@ Dieses Beispiel läuft ohne embedded Hardware, auf MacOS, Linux oder Windows.
     *** Booting Zephyr OS build zephyr-v3.0.0-3797-gc28874657b70  ***
     Hello World! qemu_x86
 
-#### West Troubleshooting
+### West Troubleshooting
 https://docs.zephyrproject.org/latest/develop/west/troubleshooting.html#troubleshooting-west
 
 ## Hardware Setup
