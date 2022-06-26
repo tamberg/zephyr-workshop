@@ -201,6 +201,7 @@ Dieses Beispiel läuft ohne embedded Hardware, auf MacOS, Linux oder Windows.
 * https://docs.zephyrproject.org/latest/boards/index.html (Zephyr Project list of "supported" boards)
 * https://www.espressif.com/en/news/Zephyr_updates (Update on Espressif’s Support for Zephyr)
 
+### Boards
 * [ESP32-S2](#esp32-s2)
 * [ESP32-C3](#esp32-c3)
 * [STM32F405](#stm32f405)
