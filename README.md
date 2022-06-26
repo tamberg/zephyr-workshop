@@ -258,12 +258,16 @@ https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html
 
 #### ESP32-S2 auf MacOS
     $ pip3 install --upgrade esptool
-    $ cd ~/Documents/Zephyr/zephyrproject
+    $ cd ~/Documents/zephyrproject
     $ west espressif update
-    $ cd ~/Documents/Zephyr/zephyrproject/zephyr
+    $ cd ~/Documents/zephyrproject/zephyr
     $ cat samples/basic/blinky/src/main.c
     $ west build -p auto -b esp32s2_saola samples/basic/blinky
     $ west flash
+
+Oder
+
+    $ west flash --esp-device=/dev/cu.usbmodem01
 
 #### ESP32-S2 auf Linux
 TODO
