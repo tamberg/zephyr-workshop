@@ -202,7 +202,7 @@ Dieses Beispiel läuft ohne embedded Hardware, auf MacOS, Linux oder Windows.
     Hello World! qemu_x86
 
 ### West Troubleshooting
-https://docs.zephyrproject.org/latest/develop/west/troubleshooting.html#troubleshooting-west
+https://docs.zephyrproject.org/latest/develop/west/troubleshooting.html
 
 ## Hardware Setup
 * https://docs.zephyrproject.org/latest/boards/index.html (Zephyr Project list of "supported" boards)
