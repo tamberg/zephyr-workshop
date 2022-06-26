@@ -198,7 +198,8 @@ Dieses Beispiel läuft ohne embedded Hardware, auf MacOS, Linux oder Windows.
     Hello World! qemu_x86
 
 ## Hardware Setup
-https://docs.zephyrproject.org/latest/boards/index.html
+* https://docs.zephyrproject.org/latest/boards/index.html (Zephyr Project list of "supported" boards)
+* https://www.espressif.com/en/news/Zephyr_updates (Update on Espressif’s Support for Zephyr)
 
 * [ESP32-S2](#esp32-s2)
 * [ESP32-C3](#esp32-c3)
