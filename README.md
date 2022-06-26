@@ -284,7 +284,7 @@ TODO
 TODO
 
 ### ESP32-C3
-> Not recommended yet
+Not recommended yet.
 
 #### Buy
 https://www.adafruit.com/product/5405 (Adafruit QT Py ESP32-C3 WiFi Dev Board)
@@ -336,7 +336,7 @@ TODO
 TODO
 
 ### STM32F405
-> No built-in connectivity
+No built-in connectivity.
 
 #### STM32F405 auf MacOS
     $ brew install dfu-util
