@@ -163,10 +163,11 @@ https://docs.zephyrproject.org/latest/develop/getting_started/index.html
     $ west zephyr-export
     $ pip3 install -r zephyr/scripts/requirements.txt 
 
-    $ wget https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.1/zephyr-sdk-0.14.1_macos-x86_64.tar.gz
-    $ wget -O - https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.1/sha256.sum | shasum --check --ignore-missing
-    $ tar xvf zephyr-sdk-0.14.1_macos-x86_64.tar.gz
-    $ cd zephyr-sdk-0.14.1
+    $ cd ..
+    $ wget https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.2/zephyr-sdk-0.14.2_macos-x86_64.tar.gz
+    $ wget -O - https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.2/sha256.sum | shasum --check --ignore-missing
+    $ tar xvf zephyr-sdk-0.14.2_macos-x86_64.tar.gz
+    $ cd zephyr-sdk-0.14.2
     $ ./setup.sh
 
 (Tipps zu Brew, XCode, etc. siehe https://learn.adafruit.com/blinking-led-with-zephyr-rtos/installing-zephyr-osx)
@@ -198,8 +199,10 @@ Dieses Beispiel läuft ohne embedded Hardware, auf MacOS, Linux oder Windows.
     Hello World! qemu_x86
 
 ## Hardware Setup
-https://docs.zephyrproject.org/latest/boards/index.html
+* https://docs.zephyrproject.org/latest/boards/index.html (Zephyr Project list of "supported" boards)
+* https://www.espressif.com/en/news/Zephyr_updates (Update on Espressif’s Support for Zephyr)
 
+### Boards
 * [ESP32-S2](#esp32-s2)
 * [ESP32-C3](#esp32-c3)
 * [STM32F405](#stm32f405)
@@ -223,6 +226,7 @@ https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html
 
 * https://learn.adafruit.com/assets/110384 (Schematic)
 * https://learn.adafruit.com/adafruit-qt-py-esp32-s2/downloads
+* https://github.com/adafruit/Adafruit-QT-Py-ESP32-S2-PCB
 
 #### Datasheets
 * [ESP32-S2 Series Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s2_datasheet_en.pdf)
@@ -236,6 +240,9 @@ https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html
 - [boards/xtensa/esp32s2_saola/esp32s2_saola-pinctrl.dtsi](https://github.com/zephyrproject-rtos/zephyr/blob/main/boards/xtensa/esp32s2_saola/esp32s2_saola-pinctrl.dtsi)
 - [boards/xtensa/esp32s2_saola/esp32s2_saola.yaml](https://github.com/zephyrproject-rtos/zephyr/blob/main/boards/xtensa/esp32s2_saola/esp32s2_saola.yaml)
 - [boards/xtensa/esp32s2_saola/esp32s2_saola_defconfig](https://github.com/zephyrproject-rtos/zephyr/blob/main/boards/xtensa/esp32s2_saola/esp32s2_saola_defconfig)
+
+#### Pinmux macros
+- https://github.com/zephyrproject-rtos/hal_espressif/blob/zephyr/include/dt-bindings/pinctrl/esp32s2-pinctrl.h
 
 #### ESP32-S2 auf MacOS
     $ pip3 install --upgrade esptool
@@ -270,6 +277,7 @@ https://docs.zephyrproject.org/latest/boards/riscv/esp32c3_devkitm/doc/index.htm
 
 * https://learn.adafruit.com/assets/109793 (Schematic)
 * https://learn.adafruit.com/adafruit-qt-py-esp32-c3-wifi-dev-board/downloads
+* https://github.com/adafruit/Adafruit-QT-Py-ESP32-C3-PCB
 
 #### Datasheets
 * [ESP32-C3 Series Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf)
@@ -281,6 +289,9 @@ https://docs.zephyrproject.org/latest/boards/riscv/esp32c3_devkitm/doc/index.htm
 - [/boards/riscv/esp32c3_devkitm/esp32c3_devkitm-pinctrl.dtsi](https://github.com/zephyrproject-rtos/zephyr/blob/main/boards/riscv/esp32c3_devkitm/esp32c3_devkitm-pinctrl.dtsi)
 - [/boards/riscv/esp32c3_devkitm/esp32c3_devkitm.yaml](https://github.com/zephyrproject-rtos/zephyr/blob/main/boards/riscv/esp32c3_devkitm/esp32c3_devkitm.yaml)
 - [/boards/riscv/esp32c3_devkitm/esp32c3_devkitm_defconfig](https://github.com/zephyrproject-rtos/zephyr/blob/main/boards/riscv/esp32c3_devkitm/esp32c3_devkitm_defconfig)
+
+#### Pinmux macros
+- https://github.com/zephyrproject-rtos/hal_espressif/blob/zephyr/include/dt-bindings/pinctrl/esp32c3-pinctrl.h
 
 #### ESP32-C3 auf MacOS
     $ west espressif update
@@ -343,6 +354,15 @@ TODO
 ## Sockets & HTTP
 * https://docs.zephyrproject.org/latest/connectivity/networking/net-stack-architecture.html
 * https://docs.zephyrproject.org/latest/connectivity/networking/api/sockets.html
+* https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/net/sockets
+
+* https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/net/wifi
+* https://github.com/zephyrproject-rtos/zephyr/blob/main/samples/net/sockets/http_get
+* https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/net/sockets/http_client
+* https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/net/sockets/dumb_http_server
+* https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/net/mqtt_publisher
+* https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/net/sockets/coap_client
+* https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/net/sockets/coap_server
 
 * https://blog.golioth.io/zephyr-does-ethernet-too/
 * https://blog.golioth.io/esp32-esp-at-enables-connectivity-on-any-zephyr-project/
