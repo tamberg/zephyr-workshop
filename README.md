@@ -170,6 +170,9 @@ https://docs.zephyrproject.org/latest/develop/getting_started/index.html
     $ cd zephyr-sdk-0.14.2
     $ ./setup.sh
 
+    $ cd zephyrproject
+    $ git clone https://github.com/tamberg/zephyr-workshop
+
 (Tipps zu Brew, XCode, etc. siehe https://learn.adafruit.com/blinking-led-with-zephyr-rtos/installing-zephyr-osx)
 
 #### Zephyr auf Linux
@@ -197,6 +200,9 @@ Dieses Beispiel läuft ohne embedded Hardware, auf MacOS, Linux oder Windows.
     Booting from ROM..
     *** Booting Zephyr OS build zephyr-v3.0.0-3797-gc28874657b70  ***
     Hello World! qemu_x86
+
+### West Troubleshooting
+https://docs.zephyrproject.org/latest/develop/west/troubleshooting.html
 
 ## Hardware Setup
 * https://docs.zephyrproject.org/latest/boards/index.html (Zephyr Project list of "supported" boards)
@@ -365,7 +371,7 @@ TODO
 * https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/net/sockets/coap_server
 
 * https://blog.golioth.io/zephyr-does-ethernet-too/
-* https://blog.golioth.io/esp32-esp-at-enables-connectivity-on-any-zephyr-project/
+* https://blog.golioth.io/esp32-esp-at-enables-connectivity-on-any-zephyr-project/ (TODO)
 * https://github.com/golioth/golioth-zephyr-sdk/tree/main/samples/hello#nrf52840-dk--esp32-wroom-32
 * https://github.com/uLipe/zephyr-esp32-mqtt-demo
 
