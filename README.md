@@ -402,6 +402,8 @@ TODO
 ## Random
 ### Golioth Posts zu Zephyr
 * https://blog.golioth.io/adding-an-out-of-tree-sensor-driver-to-zephyr/
+* https://blog.golioth.io/how-to-build-your-zephyr-app-in-a-standalone-folder/
+* https://blog.golioth.io/improving-zephyr-project-structure-with-manifest-files/
 * https://blog.golioth.io/category/zephyr/ (More)
 ### Nordic Fork von Zephyr
 * https://github.com/nrfconnect/sdk-zephyr
