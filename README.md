@@ -215,7 +215,10 @@ Dieses Beispiel läuft ohne embedded Hardware, auf MacOS, Linux oder Windows.
 
 ## Hardware Setup
 * https://docs.zephyrproject.org/latest/boards/index.html (Zephyr Project list of "supported" boards)
-* https://www.espressif.com/en/news/Zephyr_updates (Update on Espressif’s Support for Zephyr)
+
+> ESP32 or ESP32-S2, which are currently the best choices for running Zephyr [by Espressif]
+
+https://www.espressif.com/en/news/Zephyr_updates
 
 ### Boards
 * [ESP32-S2](#esp32-s2)
@@ -279,6 +282,8 @@ TODO
 TODO
 
 ### ESP32-C3
+> Not recommended yet
+
 #### Buy
 https://www.adafruit.com/product/5405 (Adafruit QT Py ESP32-C3 WiFi Dev Board)
 
@@ -329,6 +334,8 @@ TODO
 TODO
 
 ### STM32F405
+> No built-in connectivity
+
 #### STM32F405 auf MacOS
     $ brew install dfu-util
     $ brew install gcc-arm-embedded --cask
