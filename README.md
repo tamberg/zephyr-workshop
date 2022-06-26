@@ -214,9 +214,11 @@ Dieses Beispiel läuft ohne embedded Hardware, auf MacOS, Linux oder Windows.
 * https://docs.zephyrproject.org/latest/develop/west/troubleshooting.html
 
 ## Hardware Setup
-* https://docs.zephyrproject.org/latest/boards/index.html (Zephyr Project list of "supported" boards)
+> Zephyr project developers are continually adding board-specific support
 
-> ESP32 or ESP32-S2, which are currently the best choices for running Zephyr [by Espressif]
+https://docs.zephyrproject.org/latest/boards/index.html
+
+> ESP32 or ESP32-S2, which are currently the best choices [by Espressif] for running Zephyr
 
 https://www.espressif.com/en/news/Zephyr_updates
 
