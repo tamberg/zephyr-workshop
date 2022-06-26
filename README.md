@@ -209,6 +209,7 @@ Dieses Beispiel läuft ohne embedded Hardware, auf MacOS, Linux oder Windows.
 
 ### West
 * https://docs.zephyrproject.org/latest/develop/west/basics.html
+* https://docs.zephyrproject.org/latest/develop/west/manifest.html
 * https://docs.zephyrproject.org/latest/develop/west/extensions.html
 * https://docs.zephyrproject.org/latest/develop/west/troubleshooting.html
 
