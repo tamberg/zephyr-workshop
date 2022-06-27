@@ -423,7 +423,8 @@ https://docs.zephyrproject.org/2.7.0/guides/build/kconfig/menuconfig.html
 
     $ west build -t menuconfig
 
-https://blog.golioth.io/troubleshoot-zephyr-like-a-pro-with-menuconfig/
+* https://blog.golioth.io/troubleshoot-zephyr-like-a-pro-with-menuconfig/
+* https://blog.golioth.io/zephyr-quick-tip-show-what-menuconfig-changed-and-make-changes-persistent/
 
 ### Remote
 * https://www.irnas.eu/remote-zephyr-development-with-segger-tunnel-and-a-raspberry-pi/
