@@ -213,6 +213,10 @@ Dieses Beispiel läuft ohne embedded Hardware, auf MacOS, Linux oder Windows.
 * https://docs.zephyrproject.org/latest/develop/west/extensions.html
 * https://docs.zephyrproject.org/latest/develop/west/troubleshooting.html
 
+### Apps
+* https://docs.zephyrproject.org/latest/develop/application/index.html
+* https://github.com/zephyrproject-rtos/example-application
+
 ## Hardware Setup
 > Zephyr project developers are continually adding board-specific support
 
