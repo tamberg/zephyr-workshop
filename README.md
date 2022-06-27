@@ -419,6 +419,7 @@ https://www.zephyrproject.org/zephyr-rtos-boards-configurations-hardware-interac
 * https://docs.zephyrproject.org/latest/kernel/services/other/fatal.html (Runtime Assertions)
 
 ### Menuconfig
+https://docs.zephyrproject.org/2.7.0/guides/build/kconfig/menuconfig.html
 
     $ west build -t menuconfig
 
