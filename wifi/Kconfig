@@ -1,0 +1,26 @@
+# Copyright (c) 2021 Golioth, Inc.
+# SPDX-License-Identifier: Apache-2.0
+
+mainmenu "ESP32-S2 Wi-Fi options"
+
+if WIFI_ESP32
+
+config ESP32_WIFI_SSID
+	default "MY_SSID"
+
+config ESP32_WIFI_PASSWORD
+	default "MY_PASSWORD"
+
+endif # WIFI_ESP32
+
+if DNS_RESOLVER
+
+config DNS_SERVER_IP_ADDRESSES
+	default y
+
+config DNS_SERVER1
+	default "1.1.1.1"
+
+endif # DNS_RESOLVER
+
+source "Kconfig.zephyr"
