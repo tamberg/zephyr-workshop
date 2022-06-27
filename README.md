@@ -421,7 +421,7 @@ $ west debug
 ### Menuconfig
 * https://blog.golioth.io/troubleshoot-zephyr-like-a-pro-with-menuconfig/
 
-$ west build -t menuconfig
+    $ west build -t menuconfig
 
 ### Remote
 * https://www.irnas.eu/remote-zephyr-development-with-segger-tunnel-and-a-raspberry-pi/
