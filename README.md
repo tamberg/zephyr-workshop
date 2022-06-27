@@ -407,6 +407,7 @@ TODO
 * https://docs.zephyrproject.org/latest/kernel/services/other/fatal.html (Runtime Assertions)
 * https://www.irnas.eu/remote-zephyr-development-with-segger-tunnel-and-a-raspberry-pi/
 * https://blog.golioth.io/debugging-zephyr-for-beginners-printk-and-the-logging-subsystem/
+* https://blog.golioth.io/troubleshoot-zephyr-like-a-pro-with-menuconfig/
 
 ## Random
 ### Golioth Posts zu Zephyr
