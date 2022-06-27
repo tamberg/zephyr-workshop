@@ -422,6 +422,7 @@ https://www.zephyrproject.org/zephyr-rtos-boards-configurations-hardware-interac
 https://docs.zephyrproject.org/2.7.0/guides/build/kconfig/menuconfig.html
 
     $ west build -t menuconfig
+    $ cat build/zephyr/.config
 
 * https://blog.golioth.io/troubleshoot-zephyr-like-a-pro-with-menuconfig/
 * https://blog.golioth.io/zephyr-quick-tip-show-what-menuconfig-changed-and-make-changes-persistent/
