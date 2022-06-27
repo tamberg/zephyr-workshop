@@ -407,9 +407,9 @@ TODO
 
 ## Debugging
 
-$ west debug
+    $ west debug
 
-* https://www.zephyrproject.org/zephyr-rtos-boards-configurations-hardware-interaction/ (Debugging)
+https://www.zephyrproject.org/zephyr-rtos-boards-configurations-hardware-interaction/ (Debugging)
 
 ### printk()
 * https://blog.golioth.io/debugging-zephyr-for-beginners-printk-and-the-logging-subsystem/
@@ -419,9 +419,10 @@ $ west debug
 * https://docs.zephyrproject.org/latest/kernel/services/other/fatal.html (Runtime Assertions)
 
 ### Menuconfig
-* https://blog.golioth.io/troubleshoot-zephyr-like-a-pro-with-menuconfig/
 
     $ west build -t menuconfig
+
+https://blog.golioth.io/troubleshoot-zephyr-like-a-pro-with-menuconfig/
 
 ### Remote
 * https://www.irnas.eu/remote-zephyr-development-with-segger-tunnel-and-a-raspberry-pi/
