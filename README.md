@@ -149,28 +149,36 @@ https://docs.zephyrproject.org/latest/build/dts/troubleshooting.html#dt-trouble
 ## Toolchain Setup
 https://docs.zephyrproject.org/latest/develop/getting_started/index.html
 
+Ev. auch https://github.com/zephyrproject-rtos/sdk-ng/releases (Installer, optional)
+
 ### Zephyr
 #### Zephyr auf MacOS
+Install the Zephyr command line tool _west_ 
+
     $ brew install cmake ninja gperf python3 ccache qemu dtc wget
     $ pip3 install -U west
 
-    $ mkdir Zephyr
-    $ cd Zephyr
+Create a Zephyr workspace _zephyrproject_
 
+    $ cd ~/Documents
     $ west init zephyrproject
     $ cd zephyrproject
     $ west update
     $ west zephyr-export
     $ pip3 install -r zephyr/scripts/requirements.txt 
 
-    $ cd ..
+Install the Zephyr SDK
+
+    $ cd ~
     $ wget https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.2/zephyr-sdk-0.14.2_macos-x86_64.tar.gz
     $ wget -O - https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.14.2/sha256.sum | shasum --check --ignore-missing
     $ tar xvf zephyr-sdk-0.14.2_macos-x86_64.tar.gz
     $ cd zephyr-sdk-0.14.2
     $ ./setup.sh
 
-    $ cd zephyrproject
+Clone the workshop directory into the workspace
+
+    $ cd ~/Documents/zephyrproject
     $ git clone https://github.com/tamberg/zephyr-workshop
 
 (Tipps zu Brew, XCode, etc. siehe https://learn.adafruit.com/blinking-led-with-zephyr-rtos/installing-zephyr-osx)
@@ -201,12 +209,24 @@ Dieses Beispiel läuft ohne embedded Hardware, auf MacOS, Linux oder Windows.
     *** Booting Zephyr OS build zephyr-v3.0.0-3797-gc28874657b70  ***
     Hello World! qemu_x86
 
-### West Troubleshooting
-https://docs.zephyrproject.org/latest/develop/west/troubleshooting.html
+### West
+* https://docs.zephyrproject.org/latest/develop/west/basics.html
+* https://docs.zephyrproject.org/latest/develop/west/manifest.html
+* https://docs.zephyrproject.org/latest/develop/west/extensions.html
+* https://docs.zephyrproject.org/latest/develop/west/troubleshooting.html
+
+### Apps
+* https://docs.zephyrproject.org/latest/develop/application/index.html
+* https://github.com/zephyrproject-rtos/example-application
 
 ## Hardware Setup
-* https://docs.zephyrproject.org/latest/boards/index.html (Zephyr Project list of "supported" boards)
-* https://www.espressif.com/en/news/Zephyr_updates (Update on Espressif’s Support for Zephyr)
+> Zephyr project developers are continually adding board-specific support
+
+https://docs.zephyrproject.org/latest/boards/index.html
+
+> ESP32 or ESP32-S2, which are currently the best choices [by Espressif] for running Zephyr
+
+https://www.espressif.com/en/news/Zephyr_updates
 
 ### Boards
 * [ESP32-S2](#esp32-s2)
@@ -252,12 +272,16 @@ https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html
 
 #### ESP32-S2 auf MacOS
     $ pip3 install --upgrade esptool
-    $ cd ~/Documents/Zephyr/zephyrproject
+    $ cd ~/Documents/zephyrproject
     $ west espressif update
-    $ cd ~/Documents/Zephyr/zephyrproject/zephyr
+    $ cd ~/Documents/zephyrproject/zephyr
     $ cat samples/basic/blinky/src/main.c
     $ west build -p auto -b esp32s2_saola samples/basic/blinky
     $ west flash
+
+Oder
+
+    $ west flash --esp-device=/dev/cu.usbmodem01
 
 #### ESP32-S2 auf Linux
 TODO
@@ -266,6 +290,8 @@ TODO
 TODO
 
 ### ESP32-C3
+Not recommended yet.
+
 #### Buy
 https://www.adafruit.com/product/5405 (Adafruit QT Py ESP32-C3 WiFi Dev Board)
 
@@ -316,6 +342,8 @@ TODO
 TODO
 
 ### STM32F405
+No built-in connectivity.
+
 #### STM32F405 auf MacOS
     $ brew install dfu-util
     $ brew install gcc-arm-embedded --cask
@@ -378,17 +406,36 @@ TODO
 TODO
 
 ## Debugging
+
     $ west debug
 
-* https://www.zephyrproject.org/zephyr-rtos-boards-configurations-hardware-interaction/ (Debugging)
+https://www.zephyrproject.org/zephyr-rtos-boards-configurations-hardware-interaction/ (Debugging)
+
+### printk()
+* https://blog.golioth.io/debugging-zephyr-for-beginners-printk-and-the-logging-subsystem/
+
+### Logging
 * https://blog.golioth.io/debugging-zephyr-for-beginners-printk-and-the-logging-subsystem/
 * https://docs.zephyrproject.org/latest/kernel/services/other/fatal.html (Runtime Assertions)
+
+### Menuconfig
+https://docs.zephyrproject.org/2.7.0/guides/build/kconfig/menuconfig.html
+
+    $ west build -t menuconfig
+    $ cat build/zephyr/.config
+
+* https://blog.golioth.io/troubleshoot-zephyr-like-a-pro-with-menuconfig/
+* https://blog.golioth.io/zephyr-quick-tip-show-what-menuconfig-changed-and-make-changes-persistent/
+
+### Remote
 * https://www.irnas.eu/remote-zephyr-development-with-segger-tunnel-and-a-raspberry-pi/
-* https://blog.golioth.io/debugging-zephyr-for-beginners-printk-and-the-logging-subsystem/
 
 ## Random
 ### Golioth Posts zu Zephyr
 * https://blog.golioth.io/adding-an-out-of-tree-sensor-driver-to-zephyr/
+* https://blog.golioth.io/how-to-build-your-zephyr-app-in-a-standalone-folder/
+* https://blog.golioth.io/improving-zephyr-project-structure-with-manifest-files/
+* https://blog.golioth.io/firmware-update-for-esp32-devices/
 * https://blog.golioth.io/category/zephyr/ (More)
 ### Nordic Fork von Zephyr
 * https://github.com/nrfconnect/sdk-zephyr
