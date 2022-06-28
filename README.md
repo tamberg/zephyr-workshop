@@ -409,17 +409,18 @@ TODO
 TODO
 
 ## Debugging
-
-    $ west debug
-
-https://www.zephyrproject.org/zephyr-rtos-boards-configurations-hardware-interaction/ (Debugging)
-
 ### printk()
 * https://blog.golioth.io/debugging-zephyr-for-beginners-printk-and-the-logging-subsystem/
 
 ### Logging
 * https://blog.golioth.io/debugging-zephyr-for-beginners-printk-and-the-logging-subsystem/
 * https://docs.zephyrproject.org/latest/kernel/services/other/fatal.html (Runtime Assertions)
+
+### Debugger
+
+    $ west debug
+
+https://www.zephyrproject.org/zephyr-rtos-boards-configurations-hardware-interaction/ (Debugging)
 
 ### Menuconfig
 https://docs.zephyrproject.org/2.7.0/guides/build/kconfig/menuconfig.html
@@ -429,6 +430,12 @@ https://docs.zephyrproject.org/2.7.0/guides/build/kconfig/menuconfig.html
 
 * https://blog.golioth.io/troubleshoot-zephyr-like-a-pro-with-menuconfig/
 * https://blog.golioth.io/zephyr-quick-tip-show-what-menuconfig-changed-and-make-changes-persistent/
+
+### Shell
+* https://docs.zephyrproject.org/latest/services/shell/index.html
+
+    uart:~$ help
+    uart:~$ net iface
 
 ### Remote
 * https://www.irnas.eu/remote-zephyr-development-with-segger-tunnel-and-a-raspberry-pi/
