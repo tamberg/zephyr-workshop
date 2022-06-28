@@ -27,6 +27,8 @@ Teilnehmende brauchen einen Laptop mit MacOS, Windows oder Linux, und falls verf
 Der Workshop setzt ein Wi-Fi Netzwerk voraus, das ohne Portal zugänglich ist. Falls im Gebäude kein solches Netz vorhanden ist, können persönliche Smartphones als Hotspot verwendet werden.
 
 ## Einführung
+Video [Introduction to Zephyr](https://www.youtube.com/watch?v=4m0DPV6-GCs&list=PLzRQULb6-ipG39tVb-DEkIoSS5wQlbK6i&index=31) by [@TheaClay](https://twitter.com/TheaClay)
+
 ### Zephyr RTOS
 > The Zephyr Project strives to deliver the best-in-class RTOS for connected resource-constrained devices, built to be secure and safe.
 
