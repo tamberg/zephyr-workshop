@@ -225,6 +225,8 @@ Dieses Beispiel läuft ohne embedded Hardware, auf MacOS, Linux oder Windows.
 * https://docs.platformio.org/en/latest/frameworks/zephyr.html
 * https://marketplace.eclipse.org/content/eclipse-plug-zephyr-project
 * https://marketplace.visualstudio.com/items?itemName=zephir-lang.zephir
+* https://marketplace.visualstudio.com/items?itemName=trond-snekvik.devicetree
+* https://marketplace.visualstudio.com/items?itemName=trond-snekvik.kconfig-lang
 * Video: Diskussion über [Zephyr Developer Environments](https://www.youtube.com/watch?v=QQ4cgkAZs1E&list=PLzRQULb6-ipG39tVb-DEkIoSS5wQlbK6i&index=31) mit [@laurenmurphyx64](https://github.com/laurenmurphyx64) und [@anasnashif](https://twitter.com/anasnashif)
 
 ## Hardware Setup
