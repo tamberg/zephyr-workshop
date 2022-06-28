@@ -442,7 +442,11 @@ e.g. https://docs.zephyrproject.org/latest/kconfig.html#CONFIG_MBEDTLS_KEY_EXCHA
 ### Shell
 On the device, via UART.
 
-* https://docs.zephyrproject.org/latest/services/shell/index.html
+> a shell with a user-defined command set
+
+https://docs.zephyrproject.org/latest/services/shell/index.html
+
+If the shell is enabled in the config, type e.g.
 
     $ help
     $ net iface
