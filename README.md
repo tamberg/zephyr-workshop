@@ -364,6 +364,9 @@ TODO
 #### STM32F405 auf Windows
 TODO
 
+### Custom Board
+* https://docs.zephyrproject.org/latest/hardware/porting/board_porting.html
+
 ## GPIO & Sensoren
 ### Blinky (Digital Output)
 Siehe [samples/basic/blinky](https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/basic/blinky)
