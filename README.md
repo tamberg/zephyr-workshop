@@ -149,8 +149,6 @@ https://docs.zephyrproject.org/latest/build/dts/intro.html#input-and-output-file
 https://docs.zephyrproject.org/latest/build/dts/troubleshooting.html#dt-trouble
 
 ## Toolchain Setup
-Video: Diskussion über [Zephyr Developer Environments](https://www.youtube.com/watch?v=QQ4cgkAZs1E&list=PLzRQULb6-ipG39tVb-DEkIoSS5wQlbK6i&index=31) mit [@laurenmurphyx64](https://github.com/laurenmurphyx64) und [@anasnashif](https://twitter.com/anasnashif)
-
 https://docs.zephyrproject.org/latest/develop/getting_started/index.html
 
 Ev. auch https://github.com/zephyrproject-rtos/sdk-ng/releases (Installer, optional)
@@ -222,6 +220,11 @@ Dieses Beispiel läuft ohne embedded Hardware, auf MacOS, Linux oder Windows.
 ### Apps
 * https://docs.zephyrproject.org/latest/develop/application/index.html
 * https://github.com/zephyrproject-rtos/example-application
+
+### IDEs
+* https://marketplace.eclipse.org/content/eclipse-plug-zephyr-project
+* https://marketplace.visualstudio.com/items?itemName=zephir-lang.zephir
+* Video: Diskussion über [Zephyr Developer Environments](https://www.youtube.com/watch?v=QQ4cgkAZs1E&list=PLzRQULb6-ipG39tVb-DEkIoSS5wQlbK6i&index=31) mit [@laurenmurphyx64](https://github.com/laurenmurphyx64) und [@anasnashif](https://twitter.com/anasnashif)
 
 ## Hardware Setup
 > Zephyr project developers are continually adding board-specific support
