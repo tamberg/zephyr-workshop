@@ -432,6 +432,10 @@ https://docs.zephyrproject.org/2.7.0/guides/build/kconfig/menuconfig.html
     $ west build -t menuconfig
     $ cat build/zephyr/.config
 
+e.g. https://docs.zephyrproject.org/latest/kconfig.html#CONFIG_MBEDTLS_KEY_EXCHANGE_ECDHE_ECDSA_ENABLED
+
+    Menu path (Top) > Modules > mbed TLS Support > TLS configuration > Ciphersuite configuration
+
 * https://blog.golioth.io/troubleshoot-zephyr-like-a-pro-with-menuconfig/
 * https://blog.golioth.io/zephyr-quick-tip-show-what-menuconfig-changed-and-make-changes-persistent/
 
