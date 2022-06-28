@@ -446,7 +446,7 @@ On the device, via UART.
 
 https://docs.zephyrproject.org/latest/services/shell/index.html
 
-If the shell is enabled in the config, type e.g.
+If the shell or rather specific shell commands are enabled in the config, type e.g.
 
     $ help
     $ net iface
