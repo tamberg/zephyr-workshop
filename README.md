@@ -409,11 +409,11 @@ TODO
 TODO
 
 ## Debugging
-### printk()
-* https://blog.golioth.io/debugging-zephyr-for-beginners-printk-and-the-logging-subsystem/
-
 ### assert()
 * https://docs.zephyrproject.org/latest/kernel/services/other/fatal.html (Runtime Assertions)
+
+### printk()
+* https://blog.golioth.io/debugging-zephyr-for-beginners-printk-and-the-logging-subsystem/
 
 ### Logging
 * https://blog.golioth.io/debugging-zephyr-for-beginners-printk-and-the-logging-subsystem/
