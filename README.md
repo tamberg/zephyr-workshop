@@ -149,6 +149,8 @@ https://docs.zephyrproject.org/latest/build/dts/intro.html#input-and-output-file
 https://docs.zephyrproject.org/latest/build/dts/troubleshooting.html#dt-trouble
 
 ## Toolchain Setup
+Video: Diskussion über [Zephyr Developer Environments](https://www.youtube.com/watch?v=QQ4cgkAZs1E&list=PLzRQULb6-ipG39tVb-DEkIoSS5wQlbK6i&index=31)
+
 https://docs.zephyrproject.org/latest/develop/getting_started/index.html
 
 Ev. auch https://github.com/zephyrproject-rtos/sdk-ng/releases (Installer, optional)
