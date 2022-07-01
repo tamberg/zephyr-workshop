@@ -238,16 +238,16 @@ https://docs.zephyrproject.org/latest/boards/index.html
 
 https://www.espressif.com/en/news/Zephyr_updates
 
-### Serial Monitor
-https://www.adafruit.com/product/4331
+### FTDI
+https://www.adafruit.com/product/4331 (3.3V)
 
 Color|PIN|Used
 :---|:---|:---
 Black|GND|Yes
 Brown|CTS|No
-Red|VCC 3.3V|No
-Orange|TXD 3.3V|Yes
-Yellow|RXD 3.3V|Yes
+Red|VCC|No
+Orange|TXD|Yes
+Yellow|RXD|Yes
 Green|RTS|No
 
 ### Boards
