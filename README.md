@@ -3,35 +3,31 @@
 ## Workshop
 > Note: [New workshop](https://workshoptage.ch/workshops/2022/iot-embedded-programmierung-mit-zephyr-os/) for the [Workshop Days 2022](https://workshoptage.ch/) of [CH Open](https://www.ch-open.ch/). Feedback is welcome, [create an issue](../../issues).
 
-> Hinweis: [Neuer Workshop](https://workshoptage.ch/workshops/2022/iot-embedded-programmierung-mit-zephyr-os/) für die [Workshop Tage 2022](https://workshoptage.ch/) von [CH Open](https://www.ch-open.ch/). Feedback gerne [als Issue erfassen](../../issues).
-
 The Internet of Things ([IoT](http://www.tamberg.org/fhnw/2021/hs/IoT01Introduction.pdf)) is the convergence of internet and real world. IoT embedded devices typically have limited resources, but they are also becoming more performant with each generation. This enables more complex software on site, but also places higher demands on the platform. Zephyr RTOS, an open source operating system for embedded devices, provides the necessary abstractions, including POSIX threads, BSD sockets and debugging mechanisms. These allow professional software engineering for robust, reliable IoT applications.
 
-Das Internet of Things ([IoT](http://www.tamberg.org/fhnw/2021/hs/IoT01Introduction.pdf)) ist die Verschmelzung von Internet und physischer Welt. IoT embedded Devices haben typischerweise beschränkte Ressourcen, sie werden aber auch mit jeder Generation performanter. Dies ermöglicht komplexere Software vor Ort, stellt aber auch höhere Anforderungen an die Plattform. Zephyr RTOS, ein open source Betriebssystem für eingebettete Geräte, bietet die notwendigen Abstraktionen, insbesondere POSIX Threads, BSD Sockets und Debugging Mechanismen. Diese erlauben professionelles Software Engineering für robuste, zuverlässige IoT Anwendungen.
-
-### Ablauf
-- [Einführung](#einführung)
+### Topics
+- [Introduction](#introduction)
 - [Toolchain Setup](#toolchain-setup)
 - [Hardware Setup](#hardware-setup)
-- [GPIO & Sensoren](#gpio--sensoren)
+- [GPIO & Sensors](#gpio--sensors)
 - [Threads & Mutex](#threads--mutex)
 - [Message Queues](#message-queues)
 - [Sockets & HTTP](#sockets--http)
 - [Debugging](#debugging)
 
-### Ziel
+### Objective
 Der Workshop vermittelt die Grundlagen der embedded Programmierung auf neuster IoT Hardware, mit Zephyr OS, in der Sprache C.
 
-### Publikum
+### Target audience
 Der Workshop richtet sich an interessierte Personen mit Programmier-Erfahrung, idealerweise in C, aber gerne auch in Python oder Java.
 
-### Voraussetzungen
+### Prerequisites
 Teilnehmende brauchen einen Laptop mit MacOS, Windows oder Linux, und falls verfügbar ein Daten-fähiges USB-C Kabel. IoT Hardware inklusive Sensoren steht leihweise zur Verfügung.
 
 Der Workshop setzt ein Wi-Fi Netzwerk voraus, das ohne Portal zugänglich ist. Falls im Gebäude kein solches Netz vorhanden ist, können persönliche Smartphones als Hotspot verwendet werden.
 
-## Einführung
-Video: [Introduction to Zephyr](https://www.youtube.com/watch?v=4m0DPV6-GCs&list=PLzRQULb6-ipG39tVb-DEkIoSS5wQlbK6i&index=31) von [@TheaClay](https://twitter.com/TheaClay)
+## Introduction
+Video: [Introduction to Zephyr](https://www.youtube.com/watch?v=4m0DPV6-GCs&list=PLzRQULb6-ipG39tVb-DEkIoSS5wQlbK6i&index=31) by [@TheaClay](https://twitter.com/TheaClay)
 
 ### Zephyr RTOS
 > The Zephyr Project strives to deliver the best-in-class RTOS for connected resource-constrained devices, built to be secure and safe.
