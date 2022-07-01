@@ -53,11 +53,7 @@ https://docs.zephyrproject.org/latest/introduction/index.html#distinguishing-fea
 ### Kernel services
 > The Zephyr kernel lies at the heart of every Zephyr application. It provides a low footprint, high performance, multi-threaded execution environment with a rich set of available features. The rest of the Zephyr ecosystem, including device drivers, networking stack, and application-specific code, uses the kernel’s features to create a complete application.
 
-> * Scheduling, Interrupts, and Synchronization
-> * Data Passing
-> * Memory Management
-> * Timing
-> * Other
+> Scheduling, Interrupts, and Synchronization • Data Passing • Memory Management • Timing • Other
 
 https://docs.zephyrproject.org/latest/kernel/services/index.html
 
