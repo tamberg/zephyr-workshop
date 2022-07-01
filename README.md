@@ -238,6 +238,18 @@ https://docs.zephyrproject.org/latest/boards/index.html
 
 https://www.espressif.com/en/news/Zephyr_updates
 
+### Serial Monitor
+https://www.adafruit.com/product/4331
+
+Color|PIN|Used
+:---|:---|:---
+Black|GND|Yes
+Brown|CTS|No
+Red|VCC 3.3V|No
+Orange|TXD 3.3V|Yes
+Yellow|RXD 3.3V|Yes
+Green|RTS|No
+
 ### Boards
 * [ESP32-S2](#esp32-s2)
 * [ESP32-C3](#esp32-c3)
