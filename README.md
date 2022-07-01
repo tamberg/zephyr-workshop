@@ -283,16 +283,15 @@ https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html
 #### Pinmux macros
 - https://github.com/zephyrproject-rtos/hal_espressif/blob/zephyr/include/dt-bindings/pinctrl/esp32s2-pinctrl.h
 
-#### FTDI pins
-Color|PIN|Used
+#### FTDI wiring
+Color|FTDI|Board
 :---|:---|:---
-Black|GND|Yes
-Brown|CTS|No
-Red|VCC|No
-Orange|TXD|Yes
-Yellow|RXD|Yes
-Green|RTS|No
-
+Black|GND|GND
+Brown|CTS|-
+Red|VCC|-
+Orange|TXD|RX
+Yellow|RXD|TX
+Green|RTS|-
 
 #### ESP32-S2 auf MacOS
     $ pip3 install --upgrade esptool
