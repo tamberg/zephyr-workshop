@@ -50,7 +50,7 @@ https://docs.zephyrproject.org/latest/introduction/index.html
 
 https://docs.zephyrproject.org/latest/introduction/index.html#distinguishing-features
 
-### Kernel Services
+### Kernel services
 > The Zephyr kernel lies at the heart of every Zephyr application. It provides a low footprint, high performance, multi-threaded execution environment with a rich set of available features. The rest of the Zephyr ecosystem, including device drivers, networking stack, and application-specific code, uses the kernel’s features to create a complete application.
 
 > * Scheduling, Interrupts, and Synchronization
@@ -61,12 +61,12 @@ https://docs.zephyrproject.org/latest/introduction/index.html#distinguishing-fea
 
 https://docs.zephyrproject.org/latest/kernel/services/index.html
 
-### OS Services
+### OS services
 > Cryptography • Debugging • Device Management • File Systems • Formatted Output • Logging • Tracing • Resource Management • Modbus • Asynchronous Notifications • Power Management • OS Abstraction • Shell • Settings • State Machine Framework • Storage • Task Watchdog • Trusted Firmware-M • USB device support • Virtualization • Miscellaneous.
 
 https://docs.zephyrproject.org/latest/services/index.html
 
-### Build System
+### Build system
 > CMake is used to build your application together with the Zephyr kernel. A CMake build is done in two stages. The first stage is called configuration. During configuration, the CMakeLists.txt build scripts are executed. After configuration is finished, CMake has an internal model of the Zephyr build, and can generate build scripts that are native to the host platform.
 
 https://docs.zephyrproject.org/latest/build/cmake/index.html
@@ -99,7 +99,7 @@ https://docs.zephyrproject.org/latest/build/dts/intro.html#syntax-and-structure
 
 https://docs.zephyrproject.org/latest/build/dts/bindings.html
 
-### Devicetree in detail
+### Devicetree details
 
 > Step-by-step advice for getting things done with devicetree.
 
@@ -134,7 +134,7 @@ https://docs.zephyrproject.org/latest/build/dts/howtos.html
 
 https://docs.zephyrproject.org/latest/build/dts/intro.html#input-and-output-files
 
-### Devicetree Troubleshooting
+### Devicetree troubleshooting
 
 > Here are some tips for fixing devicetree related code.
 >
@@ -148,13 +148,13 @@ https://docs.zephyrproject.org/latest/build/dts/intro.html#input-and-output-file
 
 https://docs.zephyrproject.org/latest/build/dts/troubleshooting.html#dt-trouble
 
-## Toolchain Setup
+## Toolchain setup
 https://docs.zephyrproject.org/latest/develop/getting_started/index.html
 
 Ev. auch https://github.com/zephyrproject-rtos/sdk-ng/releases (Installer, optional)
 
 ### Zephyr
-#### Zephyr auf MacOS
+#### Zephyr on MacOS
 Install the Zephyr command line tool _west_ 
 
     $ brew install cmake ninja gperf python3 ccache qemu dtc wget
@@ -185,10 +185,10 @@ Clone the workshop directory into the workspace
 
 (Tipps on Brew, XCode, etc. see https://learn.adafruit.com/blinking-led-with-zephyr-rtos/installing-zephyr-osx)
 
-#### Zephyr auf Linux
+#### Zephyr on Linux
 TODO
 
-#### Zephyr auf Windows
+#### Zephyr on Windows
 TODO
 
 ### Hello World
@@ -200,7 +200,7 @@ See [samples/hello_world](https://github.com/zephyrproject-rtos/zephyr/blob/main
         printk("Hello World! %s\n", CONFIG_BOARD);
     }
 
-#### Hello World auf x86 Qemu
+#### Hello World on x86 Qemu
 This example runs without embedded hardware, on MacOS, Linux or Windows.
 
     $ west build -p auto -b qemu_x86 samples/hello_world
@@ -293,7 +293,7 @@ Orange|TXD|RX
 Yellow|RXD|TX
 Green|RTS|-
 
-#### ESP32-S2 auf MacOS
+#### ESP32-S2 on MacOS
     $ pip3 install --upgrade esptool
     $ cd ~/Documents/zephyrproject
     $ west espressif update
@@ -302,14 +302,14 @@ Green|RTS|-
     $ west build -p auto -b esp32s2_saola samples/basic/blinky
     $ west flash
 
-Oder
+Or
 
     $ west flash --esp-device=/dev/cu.usbmodem01
 
-#### ESP32-S2 auf Linux
+#### ESP32-S2 on Linux
 TODO
 
-#### ESP32-S2 auf Windows
+#### ESP32-S2 on Windows
 TODO
 
 ### ESP32-C3
@@ -348,7 +348,7 @@ https://docs.zephyrproject.org/latest/boards/riscv/esp32c3_devkitm/doc/index.htm
 #### Pinmux macros
 - https://github.com/zephyrproject-rtos/hal_espressif/blob/zephyr/include/dt-bindings/pinctrl/esp32c3-pinctrl.h
 
-#### ESP32-C3 auf MacOS
+#### ESP32-C3 on MacOS
     $ west espressif update
     $ cat samples/hello_world/src/main.c
     $ west build -p auto -b esp32c3_devkitm samples/hello_world
@@ -358,16 +358,16 @@ https://docs.zephyrproject.org/latest/boards/riscv/esp32c3_devkitm/doc/index.htm
 
 TODO: https://forums.adafruit.com/viewtopic.php?f=8&t=191501&p=926488#p926488
 
-#### ESP32-C3 auf Linux
+#### ESP32-C3 on Linux
 TODO
 
-#### ESP32-C3 auf Windows
+#### ESP32-C3 on Windows
 TODO
 
 ### STM32F405
 No built-in connectivity.
 
-#### STM32F405 auf MacOS
+#### STM32F405 on MacOS
     $ brew install dfu-util
     $ brew install gcc-arm-embedded --cask
     $ which arm-none-eabi-gdb
@@ -381,28 +381,28 @@ No built-in connectivity.
     $ west build -p auto -b adafruit_feather_stm32f405 samples/basic/blinky
     $ west flash
 
-#### STM32F405 auf Linux
+#### STM32F405 on Linux
 TODO
 
-#### STM32F405 auf Windows
+#### STM32F405 on Windows
 TODO
 
-### Custom Board
+### Custom board
 * https://docs.zephyrproject.org/latest/hardware/porting/board_porting.html
 
-## GPIO & Sensoren
-### Blinky (Digital Output)
+## GPIO & sensors
+### Blinky (digital output)
 See [samples/basic/blinky](https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/basic/blinky)
 
-### Button (Digital Input)
+### Button (digital input)
 See [samples/basic/button](https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/basic/button)
 
-### DHT11 Temperatur & Feuchtigkeit
+### DHT11 temperature & humidity
 See [samples/sensor/dht](https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/sensor/dht)
 
-Und [samples/sensor/dht/boards/nrf52dk_nrf52832.overlay](https://github.com/zephyrproject-rtos/zephyr/blob/main/samples/sensor/dht/boards/nrf52dk_nrf52832.overlay)
+And [samples/sensor/dht/boards/nrf52dk_nrf52832.overlay](https://github.com/zephyrproject-rtos/zephyr/blob/main/samples/sensor/dht/boards/nrf52dk_nrf52832.overlay)
 
-### More Sensors
+### More sensors
 See [samples/sensor](https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/sensor)
 
 ## Threads & Mutex
