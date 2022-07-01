@@ -1,7 +1,11 @@
 # IoT Embedded Programmierung mit Zephyr RTOS
 
 ## Workshop
+> Note: [New workshop](https://workshoptage.ch/workshops/2022/iot-embedded-programmierung-mit-zephyr-os/) for the [Workshop Days 2022](https://workshoptage.ch/) of [CH Open](https://www.ch-open.ch/). Feedback is welcome, [create an issue](../../issues).
+
 > Hinweis: [Neuer Workshop](https://workshoptage.ch/workshops/2022/iot-embedded-programmierung-mit-zephyr-os/) für die [Workshop Tage 2022](https://workshoptage.ch/) von [CH Open](https://www.ch-open.ch/). Feedback gerne [als Issue erfassen](../../issues).
+
+The Internet of Things ([IoT](http://www.tamberg.org/fhnw/2021/hs/IoT01Introduction.pdf)) is the convergence of internet and real world. IoT embedded devices typically have limited resources, but they are also becoming more performant with each generation. This enables more complex software on site, but also places higher demands on the platform. Zephyr RTOS, an open source operating system for embedded devices, provides the necessary abstractions, especially POSIX threads, BSD sockets and debugging mechanisms. These allow professional software engineering for robust, reliable IoT applications.
 
 Das Internet of Things ([IoT](http://www.tamberg.org/fhnw/2021/hs/IoT01Introduction.pdf)) ist die Verschmelzung von Internet und physischer Welt. IoT embedded Devices haben typischerweise beschränkte Ressourcen, sie werden aber auch mit jeder Generation performanter. Dies ermöglicht komplexere Software vor Ort, stellt aber auch höhere Anforderungen an die Plattform. Zephyr RTOS, ein open source Betriebssystem für eingebettete Geräte, bietet die notwendigen Abstraktionen, insbesondere POSIX Threads, BSD Sockets und Debugging Mechanismen. Diese erlauben professionelles Software Engineering für robuste, zuverlässige IoT Anwendungen.
 
