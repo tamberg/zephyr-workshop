@@ -241,15 +241,6 @@ https://www.espressif.com/en/news/Zephyr_updates
 ### FTDI
 https://www.adafruit.com/product/4331 (3.3V)
 
-Color|PIN|Used
-:---|:---|:---
-Black|GND|Yes
-Brown|CTS|No
-Red|VCC|No
-Orange|TXD|Yes
-Yellow|RXD|Yes
-Green|RTS|No
-
 ### Boards
 * [ESP32-S2](#esp32-s2)
 * [ESP32-C3](#esp32-c3)
@@ -291,6 +282,17 @@ https://docs.zephyrproject.org/latest/boards/xtensa/esp32s2_saola/doc/index.html
 
 #### Pinmux macros
 - https://github.com/zephyrproject-rtos/hal_espressif/blob/zephyr/include/dt-bindings/pinctrl/esp32s2-pinctrl.h
+
+#### FTDI pins
+Color|PIN|Used
+:---|:---|:---
+Black|GND|Yes
+Brown|CTS|No
+Red|VCC|No
+Orange|TXD|Yes
+Yellow|RXD|Yes
+Green|RTS|No
+
 
 #### ESP32-S2 auf MacOS
     $ pip3 install --upgrade esptool
