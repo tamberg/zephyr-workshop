@@ -1,4 +1,4 @@
-# IoT Embedded Programmierung mit Zephyr RTOS
+# IoT Embedded Programming with Zephyr RTOS
 
 ## Workshop
 > Note: [New workshop](https://workshoptage.ch/workshops/2022/iot-embedded-programmierung-mit-zephyr-os/) for the [Workshop Days 2022](https://workshoptage.ch/) of [CH Open](https://www.ch-open.ch/). Feedback is welcome, [create an issue](../../issues).
@@ -16,15 +16,15 @@ The Internet of Things ([IoT](http://www.tamberg.org/fhnw/2021/hs/IoT01Introduct
 - [Debugging](#debugging)
 
 ### Objective
-Der Workshop vermittelt die Grundlagen der embedded Programmierung auf neuster IoT Hardware, mit Zephyr OS, in der Sprache C.
+The workshop teaches the basics of embedded programming on the latest IoT hardware, with Zephyr OS, in the C programming language.
 
 ### Target audience
-Der Workshop richtet sich an interessierte Personen mit Programmier-Erfahrung, idealerweise in C, aber gerne auch in Python oder Java.
+The workshop is aimed at interested people with programming experience, ideally in C, but also in Python or Java.
 
 ### Prerequisites
-Teilnehmende brauchen einen Laptop mit MacOS, Windows oder Linux, und falls verfügbar ein Daten-fähiges USB-C Kabel. IoT Hardware inklusive Sensoren steht leihweise zur Verfügung.
+Participants will need a laptop with MacOS, Windows or Linux, and a data-enabled USB-C cable, if available. IoT hardware including sensors is available on loan.
 
-Der Workshop setzt ein Wi-Fi Netzwerk voraus, das ohne Portal zugänglich ist. Falls im Gebäude kein solches Netz vorhanden ist, können persönliche Smartphones als Hotspot verwendet werden.
+The workshop requires a Wi-Fi network that is accessible without a portal. If there is no such network in the building, personal smartphones can be used as hotspots.
 
 ## Introduction
 Video: [Introduction to Zephyr](https://www.youtube.com/watch?v=4m0DPV6-GCs&list=PLzRQULb6-ipG39tVb-DEkIoSS5wQlbK6i&index=31) by [@TheaClay](https://twitter.com/TheaClay)
