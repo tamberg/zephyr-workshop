@@ -16,10 +16,10 @@ The Internet of Things ([IoT](http://www.tamberg.org/fhnw/2021/hs/IoT01Introduct
 - [Debugging](#debugging)
 
 ### Objective
-The workshop teaches the basics of embedded programming on the latest IoT hardware, with Zephyr OS, in the C programming language.
+This workshop teaches the basics of embedded programming on the latest IoT hardware, with Zephyr OS, in the C programming language.
 
 ### Target audience
-The workshop is aimed at interested people with programming experience, ideally in C, but also in Python or Java.
+This workshop is aimed at interested people with programming experience, ideally in C, but also in Python or Java.
 
 ### Prerequisites
 Participants will need a laptop with MacOS, Windows or Linux, and a data-enabled USB-C cable, if available. IoT hardware including sensors is available on loan.
