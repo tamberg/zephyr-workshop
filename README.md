@@ -183,7 +183,7 @@ Clone the workshop directory into the workspace
     $ cd ~/Documents/zephyrproject
     $ git clone https://github.com/tamberg/zephyr-workshop
 
-(Tipps zu Brew, XCode, etc. siehe https://learn.adafruit.com/blinking-led-with-zephyr-rtos/installing-zephyr-osx)
+(Tipps on Brew, XCode, etc. see https://learn.adafruit.com/blinking-led-with-zephyr-rtos/installing-zephyr-osx)
 
 #### Zephyr auf Linux
 TODO
@@ -192,7 +192,7 @@ TODO
 TODO
 
 ### Hello World
-Siehe [samples/hello_world](https://github.com/zephyrproject-rtos/zephyr/blob/main/samples/hello_world)
+See [samples/hello_world](https://github.com/zephyrproject-rtos/zephyr/blob/main/samples/hello_world)
 
     #include <zephyr/zephyr.h>
 
@@ -201,7 +201,7 @@ Siehe [samples/hello_world](https://github.com/zephyrproject-rtos/zephyr/blob/ma
     }
 
 #### Hello World auf x86 Qemu
-Dieses Beispiel läuft ohne embedded Hardware, auf MacOS, Linux oder Windows.
+This example runs without embedded hardware, on MacOS, Linux or Windows.
 
     $ west build -p auto -b qemu_x86 samples/hello_world
     $ west build -t run
@@ -392,18 +392,18 @@ TODO
 
 ## GPIO & Sensoren
 ### Blinky (Digital Output)
-Siehe [samples/basic/blinky](https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/basic/blinky)
+See [samples/basic/blinky](https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/basic/blinky)
 
 ### Button (Digital Input)
-Siehe [samples/basic/button](https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/basic/button)
+See [samples/basic/button](https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/basic/button)
 
 ### DHT11 Temperatur & Feuchtigkeit
-Siehe [samples/sensor/dht](https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/sensor/dht)
+See [samples/sensor/dht](https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/sensor/dht)
 
 Und [samples/sensor/dht/boards/nrf52dk_nrf52832.overlay](https://github.com/zephyrproject-rtos/zephyr/blob/main/samples/sensor/dht/boards/nrf52dk_nrf52832.overlay)
 
-### Weitere Sensoren
-Siehe [samples/sensor](https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/sensor)
+### More Sensors
+See [samples/sensor](https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/sensor)
 
 ## Threads & Mutex
 TODO
@@ -480,13 +480,13 @@ On the deployed device, via Internet.
 * https://www.irnas.eu/remote-zephyr-development-with-segger-tunnel-and-a-raspberry-pi/
 
 ## Random
-### Golioth Posts zu Zephyr
+### Golioth Posts on Zephyr
 * https://blog.golioth.io/adding-an-out-of-tree-sensor-driver-to-zephyr/
 * https://blog.golioth.io/how-to-build-your-zephyr-app-in-a-standalone-folder/
 * https://blog.golioth.io/improving-zephyr-project-structure-with-manifest-files/
 * https://blog.golioth.io/firmware-update-for-esp32-devices/
 * https://blog.golioth.io/category/zephyr/ (More)
-### Nordic Fork von Zephyr
+### Nordic Fork of Zephyr
 * https://github.com/nrfconnect/sdk-zephyr
 * https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/zephyr/index.html
 * https://devzone.nordicsemi.com/f/nordic-q-a/77257/relationship-sdk-zephyr-and-zephyhrproject-zephyr
