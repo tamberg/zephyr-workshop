@@ -24,7 +24,7 @@ This workshop is aimed at interested people with programming experience, ideally
 ### Prerequisites
 Participants will need a laptop with MacOS, Windows or Linux, and a data-enabled USB-C cable, if available. IoT hardware including sensors is available on loan.
 
-The workshop requires a Wi-Fi network that is accessible without a portal. If there is no such network in the building, personal smartphones can be used as hotspots.
+The workshop requires a Wi-Fi network that is accessible without a portal. Alternatively, a personal smartphone can be used as a hotspot.
 
 ## Introduction
 Video: [Introduction to Zephyr](https://www.youtube.com/watch?v=4m0DPV6-GCs&list=PLzRQULb6-ipG39tVb-DEkIoSS5wQlbK6i&index=31) by [@TheaClay](https://twitter.com/TheaClay)
