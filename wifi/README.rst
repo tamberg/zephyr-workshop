@@ -3,7 +3,7 @@
 Wi-Fi sample
 ############
 
-> Note: this sample does not yet work. See [this thread](https://discord.com/channels/720317445772017664/883444902971727882/991464293436502118) on the Zephyr Discord
+Note: this sample does not yet work. See [this thread](https://discord.com/channels/720317445772017664/883444902971727882/991464293436502118) on the Zephyr Discord
 
 Overview
 ********
