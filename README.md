@@ -237,13 +237,6 @@ https://www.espressif.com/en/news/Zephyr_updates
 ### FTDI
 https://www.adafruit.com/product/4331 (3.3V)
 
-* Black - GND
-* Brown - CTS
-* Red - VCC (3.3V @ 50mA)
-* Orange - TXD (3.3V)
-* Yellow - RXD (3.3V)
-* Green - RTS
-
 ### Boards
 * [ESP32-S2](#esp32-s2)
 * [ESP32-C3](#esp32-c3)
