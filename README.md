@@ -299,10 +299,7 @@ Green|RTS|-
     $ cat samples/basic/blinky/src/main.c
     $ west build -p auto -b esp32s2_saola samples/basic/blinky
     $ west flash
-
-Or
-
-    $ west flash --esp-device=/dev/cu.usbmodem01
+    $ # or: west flash --esp-device=/dev/cu.usbmodem01
 
 #### ESP32-S2 on Linux
 TODO
