@@ -292,7 +292,7 @@ Green|RTS|-
 <img src="QtPyEsp32S2FtdiWiring.png" width="240"/>
 
 #### ESP32-S2 ROM bootloader mode
-To get the ESP32-S2 into [ROM bootloader mode](https://learn.adafruit.com/adafruit-qt-py-esp32-s2/pinouts#buttons-3107929).
+To get the ESP32-S2 into [ROM bootloader mode](https://learn.adafruit.com/adafruit-qt-py-esp32-s2/pinouts#buttons-3107929)
 
 * Press and hold the _BOOT_ button
 * Then, press the _RESET_ button
