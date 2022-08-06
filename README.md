@@ -292,11 +292,9 @@ Green|RTS|-
 <img src="QtPyEsp32S2FtdiWiring.png" width="240"/>
 
 #### ESP32-S2 bootloader mode
-To get the ESP32-S2 into bootloader mode
-
-* Press and hold _reset_ button
-* Press _boot_ (or User) button
-* Release _reset_ button
+* Press and hold _RESET_ button
+* Press _BOOT_ (aka User) button
+* Release _RESET_ button
 
 #### ESP32-S2 on MacOS
 To install the ESP32-S2 specific toolchain
