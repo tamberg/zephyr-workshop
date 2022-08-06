@@ -404,7 +404,9 @@ TODO
 
 ## GPIO & sensors
 ### Blinky (digital output)
-See [samples/basic/blinky](https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/basic/blinky)
+See [samples/basic/blinky](https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/basic/blinky) and [blink](blink)
+
+<img src="QtPyEsp32S2BlinkWiring.png" width="240"/>
 
 ### Button (digital input)
 See [samples/basic/button](https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/basic/button)
