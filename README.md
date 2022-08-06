@@ -404,12 +404,14 @@ TODO
 
 ## GPIO & sensors
 ### Blinky (digital output)
-See [samples/basic/blinky](https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/basic/blinky) and [blink](blink)
+Based on [samples/basic/blinky](https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/basic/blinky) try [blink](blink)
 
 <img src="QtPyEsp32S2BlinkWiring.png" width="320"/>
 
 ### Button (digital input)
-See [samples/basic/button](https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/basic/button)
+Based on [samples/basic/button](https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/basic/button) try [button](button)
+
+<img src="QtPyEsp32S2ButtonWiring.png" width="320"/>
 
 ### DHT11 temperature & humidity
 See [samples/sensor/dht](https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/sensor/dht)
