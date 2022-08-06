@@ -291,12 +291,29 @@ Green|RTS|-
 
 <img src="QtPyEsp32S2FtdiWiring.png" width="240"/>
 
+#### ESP32-S2 ROM bootloader mode
+To get the ESP32-S2 into [ROM bootloader mode](https://learn.adafruit.com/adafruit-qt-py-esp32-s2/pinouts#buttons-3107929)
+
+* Press and hold the _BOOT_ button
+* Then, press the _RESET_ button
+* Release the _BOOT_ button
+
+Now it should show up as a USB device.
+
 #### ESP32-S2 on MacOS
+To install the ESP32-S2 specific toolchain
+
     $ pip3 install --upgrade esptool
     $ cd ~/Documents/zephyrproject
     $ west espressif update
+
+To check the source code
+
     $ cd ~/Documents/zephyrproject/zephyr
     $ cat samples/basic/blinky/src/main.c
+
+To build and flash
+
     $ west build -p auto -b esp32s2_saola samples/basic/blinky
     $ west flash
     $ # or: west flash --esp-device=/dev/cu.usbmodem01
