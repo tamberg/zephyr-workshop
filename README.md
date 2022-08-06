@@ -289,7 +289,7 @@ Orange|TXD|RX
 Yellow|RXD|TX
 Green|RTS|-
 
-<img src="QtPyEsp32S2FtdiWiring.png" width="320"/>
+<img src="QtPyEsp32S2FtdiWiring.png" width="240"/>
 
 #### ESP32-S2 on MacOS
     $ pip3 install --upgrade esptool
