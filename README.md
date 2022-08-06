@@ -294,9 +294,9 @@ Green|RTS|-
 #### ESP32-S2 bootloader mode
 To get the ESP32-S2 into bootloader mode.
 
-* Press and hold the _RESET_ button
-* Press the _BOOT_ (User) button
-* Release the _RESET_ button
+* Press and hold the _BOOT_ button
+* Then, press the _RESET_ button
+* Release the _BOOT_ button
 
 Now it should show up as a USB device.
 
