@@ -298,15 +298,18 @@ Green|RTS|-
 
 #### ESP32-S2 on MacOS
 To install the ESP32-S2 specific toolchain
+
     $ pip3 install --upgrade esptool
     $ cd ~/Documents/zephyrproject
     $ west espressif update
 
 To check the source code
+
     $ cd ~/Documents/zephyrproject/zephyr
     $ cat samples/basic/blinky/src/main.c
 
 To build and flash
+
     $ west build -p auto -b esp32s2_saola samples/basic/blinky
     $ west flash
     $ # or: west flash --esp-device=/dev/cu.usbmodem01
