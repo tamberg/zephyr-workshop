@@ -18,16 +18,14 @@
 #include <zephyr/net/net_ip.h>
 
 int main() {
-    // Client
-    int sock_fd = zsock_socket(AF_INET, SOCK_STREAM, 0); // create socket
+    int sock_fd = zsock_socket(AF_INET, SOCK_STREAM, 0);
 
-    // Internet Domain Addr
     struct sockaddr_in sv_addr_in;
     sv_addr_in.sin_family = AF_INET;
     sv_addr_in.sin_port = htons(80);
     zsock_inet_pton(AF_INET, "52.218.49.114", &(sv_addr_in.sin_addr));
 
-    zsock_connect(sock_fd, (struct sockaddr *) &sv_addr_in, sizeof(struct sockaddr_in)); // connect socket to sv_addr
+    zsock_connect(sock_fd, (struct sockaddr *) &sv_addr_in, sizeof(struct sockaddr_in));
 
     printk("client: writing request...\n");
     char *http_req = "GET /hello.html HTTP/1.1\r\nHost: tmb.gr\r\n\r\n";
