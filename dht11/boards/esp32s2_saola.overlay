@@ -1,0 +1,26 @@
+&uart0 {
+    status = "okay";
+    current-speed = <115200>;
+    pinctrl-0 = <&uart0_default>;
+    pinctrl-names = "default";
+};
+
+&pinctrl {
+    uart0_default: uart0_default {
+        group1 {
+            pinmux = <UART0_TX_GPIO5>;
+        };
+        group2 {
+            pinmux = <UART0_RX_GPIO16>;
+            bias-pull-up;
+        };
+    };
+};
+
+/ {
+	dht11 {
+		compatible = "aosong,dht";
+		status = "okay";
+		dio-gpios = <&gpio0 18 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;
+	};
+};
