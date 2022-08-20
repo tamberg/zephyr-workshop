@@ -147,7 +147,7 @@ https://docs.zephyrproject.org/latest/build/dts/troubleshooting.html#dt-trouble
 ## Toolchain setup
 https://docs.zephyrproject.org/latest/develop/getting_started/index.html
 
-Ev. auch https://github.com/zephyrproject-rtos/sdk-ng/releases (Installer, optional)
+Maybe also https://github.com/zephyrproject-rtos/sdk-ng/releases (Installer, optional)
 
 ### Zephyr
 #### Zephyr on MacOS
