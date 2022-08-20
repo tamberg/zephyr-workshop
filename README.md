@@ -495,6 +495,9 @@ On the deployed device, via Internet.
 
 * https://www.irnas.eu/remote-zephyr-development-with-segger-tunnel-and-a-raspberry-pi/
 
+### More
+* https://www.embedded.com/best-practices-for-debugging-zephyr-based-iot-applications/
+
 ## Random
 ### Golioth Posts on Zephyr
 * https://blog.golioth.io/adding-an-out-of-tree-sensor-driver-to-zephyr/
