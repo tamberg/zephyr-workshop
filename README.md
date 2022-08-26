@@ -403,7 +403,7 @@ TODO
 * https://docs.zephyrproject.org/latest/hardware/porting/board_porting.html
 
 ## GPIO & sensors
-### Blinky (digital output)
+### Blink (digital output)
 Based on [samples/basic/blinky](https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/basic/blinky) try [blink](blink)
 
 <img src="QtPyEsp32S2BlinkWiring.png" width="320"/>
