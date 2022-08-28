@@ -416,7 +416,7 @@ Based on [samples/basic/button](https://github.com/zephyrproject-rtos/zephyr/tre
 ### DHT11 temperature & humidity
 Based on [samples/sensor/dht](https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/sensor/dht) try [dht](dht)
 
-<img src="QtPyEsp32S2DhtWiring.png" width="420"/>
+<img src="QtPyEsp32S2DhtWiring.png" width="400"/>
 
 ### More sensors
 See [samples/sensor](https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/sensor)
